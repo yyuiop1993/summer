@@ -1,0 +1,10 @@
+
+.layui-tab-title li>a{
+	display:inline-block;
+	height: 100%;
+	width: 65px;
+}
+.layui-table{
+    width: 98%;
+    margin: 0 auto;
+}

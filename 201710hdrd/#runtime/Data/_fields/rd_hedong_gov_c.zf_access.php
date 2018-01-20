@@ -1,0 +1,1 @@
+a:6:{i:0;s:7:"role_id";i:1;s:3:"app";i:2;s:10:"controller";i:3;s:6:"action";i:4;s:6:"status";s:5:"_type";a:5:{s:7:"role_id";s:20:"smallint(6) unsigned";s:3:"app";s:11:"varchar(20)";s:10:"controller";s:11:"varchar(20)";s:6:"action";s:11:"varchar(20)";s:6:"status";s:10:"tinyint(4)";}}

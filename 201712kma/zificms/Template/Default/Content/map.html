@@ -1,0 +1,34 @@
+<style type="text/css">.contactMap {
+    height: 660px;
+}</style>
+<div class="contactMap" id="allmap"></div>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=rPat5G5ttvaqWRZpASdwm1AHr0LV3tEp"></script>
+<script type="text/javascript">
+    
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(118.3599,35.110788);
+    var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_RIGHT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: true
+    });
+    map.addControl(navigationControl);
+    map.centerAndZoom(point,12);
+    // 创建地址解析器实例
+    var myGeo = new BMap.Geocoder();
+    // 将地址解析结果显示在地图上,并调整地图视野
+    if (point) {
+        map.centerAndZoom(point, 16);
+        map.addOverlay(new BMap.Marker(point));
+        // map.enableScrollWheelZoom(true);
+    }else{
+        alert("您选择地址没有解析到结果!");
+    }
+
+
+</script>

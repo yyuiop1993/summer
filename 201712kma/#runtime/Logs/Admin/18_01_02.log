@@ -1,0 +1,1243 @@
+[ 2018-01-02T09:12:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000671s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:13:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000991s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:14:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000722s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:15:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000763s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:16:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001007s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:17:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000703s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-02T09:18:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001068s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:19:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000714s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:23:20+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000929s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:24:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000823s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:25:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000920s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:26:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000924s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:27:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000810s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:28:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001311s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:29:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000989s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:30:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000650s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:31:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000712s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:32:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000933s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:33:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001828s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:34:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001069s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:35:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000869s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:36:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001067s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:37:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001079s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:38:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001238s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:39:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000630s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:40:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001197s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:41:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002381s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006116s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:42:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000667s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:43:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000696s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-01-02T09:44:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000791s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:45:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000672s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:46:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000702s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:47:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002528s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.002998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008712s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-01-02T09:48:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000729s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:49:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001006s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:50:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000812s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:51:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000683s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:52:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000989s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:53:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000620s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:54:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000843s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:55:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000669s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T09:56:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000726s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:57:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000691s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:58:07+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000715s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T09:59:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002007s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005226s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-01-02T10:00:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000943s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:01:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000687s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:02:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000856s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:03:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001682s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-01-02T10:04:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001062s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-02T10:05:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000757s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:06:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000704s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:07:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000731s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:08:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001227s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:09:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001166s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:10:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000750s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T10:11:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000654s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T10:12:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000912s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T10:13:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000742s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:14:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000746s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:15:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000696s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:16:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001309s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T10:17:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000790s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T10:18:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000681s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:19:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000646s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-01-02T10:20:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000769s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:21:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001289s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:22:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000788s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:23:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000971s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:24:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000856s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:25:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000759s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:26:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000718s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T10:27:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000819s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:26:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000727s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:27:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000635s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-02T16:28:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000808s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:29:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000761s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:30:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000932s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:31:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001052s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:32:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000663s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-02T16:33:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000669s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:34:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001221s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:35:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000701s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:36:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000823s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:37:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000819s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:38:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000802s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-02T16:39:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000811s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:40:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000782s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:41:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000807s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:42:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000721s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:43:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000796s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:44:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000990s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:45:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000733s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-02T16:46:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000769s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:47:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000830s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:48:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001010s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:49:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000972s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:50:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000779s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T16:51:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000773s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-02T16:52:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000754s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:53:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001230s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002621s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:54:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000907s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003255s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:55:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000774s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:56:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000889s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-02T16:57:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000770s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:58:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000746s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T16:59:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000863s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T17:00:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000894s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T17:01:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002117s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.004075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008475s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-02T17:02:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000847s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T17:03:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001242s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-02T17:04:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000882s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-02T17:05:00+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000807s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+

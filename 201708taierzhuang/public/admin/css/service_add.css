@@ -1,0 +1,99 @@
+#map_form{
+    overflow: hidden;
+    display: block;
+}
+
+#get_province{
+    margin-left: 2px;
+}
+#get_province,#get_city,.work_envir{
+    border: 1px solid #333;
+    width: 140px;
+    height: 24px;
+    line-height: 24px;
+}
+.parts_table thead th span{
+    display: block;
+    height: 20px; 
+    width: 4em;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f50;
+    color: #fff;
+    border-radius: 3px;
+}
+.parts_table tbody td input[type='text']{
+    width: 100%;
+    padding-left: 2px;
+}
+.parts_table tbody td{
+    padding: 5px;
+}
+.layui-form-label{width: 120px;}
+.layui-input-block{margin-left: 150px;}
+.layui-input,.layui-textarea{
+    width: 600px;
+}
+
+.layui-input-inline .layui-input {
+    width: 190px;
+}
+
+.upload_form{
+    display: block;
+    overflow: hidden;
+    height: auto;
+    border-top: 2px solid #DBDBDB;
+}
+
+.upload_form .img_list{
+    overflow: hidden;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.upload_form .img_list .img_item{
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.upload_form .save_box{
+    overflow: hidden;
+    width: 500px;
+}
+.upload_form .save_box>img{
+    display: none;
+    width: 90%;
+}
+
+.save_form{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+/*上传样式*/
+.img_button {
+    margin-top: 7px;
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}   
+
+.img_button input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}

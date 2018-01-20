@@ -1,0 +1,92 @@
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.login_box{
+	width: 100%;
+}
+.login_box h3{
+	color: #B7883E;
+	font-size: 24px;
+	margin: 0 5%;
+	margin-top: 20px;
+}
+.login_box h3 span{
+	font-size: 16px;
+	color: #ccc;
+}
+.login_box .input_text{
+	margin: 0 5%;
+}
+.login_box .input_text input{
+	height: 38px;
+	border: 1px solid #E6E6E6;
+	padding-left: 38px;
+	margin-top: 25px;
+	width: 100%;
+	font-size: 12px;
+}
+.login_box .input_text input:hover{
+	border: 1px solid #B7B7B7;
+}
+.login_box .input_code{
+	clear: both;
+	overflow: hidden;
+}
+.login_box .input_code input{
+	width: 230px;
+	float: left;
+}
+
+.login_box .input_code span{
+	display: inline-block;
+	float: right;
+	width: 100px;
+	height: 38px;
+	background-color: #000;
+	border-radius: 3px;
+	margin-top: 25px;
+}
+
+
+.login_box .input_sub{
+	clear: both;
+}
+.login_box .button_sub{
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #1AA094;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 5%;
+}
+.login_box .button_sub:hover{
+	background-color: #33AB9F;
+}
+
+.login_box .username{
+    position: relative;
+    background: url(/home/images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px 7px;
+}
+
+.login_box .password{
+    position: relative;
+    background: url(/home/images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px -20px;
+}
+
+.login_box .code{
+    position: relative;
+    background: url(/home/images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px -48px;
+}

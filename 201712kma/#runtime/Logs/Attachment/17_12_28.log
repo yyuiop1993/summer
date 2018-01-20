@@ -1,0 +1,333 @@
+[ 2017-12-28T11:45:39+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=8&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000621s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T11:45:42+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=35&src=/d/file/content/2017/12/5a4468e6be4a3.jpg&filename=team1_1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000619s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-12-28T11:47:04+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=9&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000688s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T11:47:08+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=36&src=/d/file/content/2017/12/5a44693be72a1.jpg&filename=team1_2.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000627s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-12-28T11:50:04+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=10&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000777s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T11:50:08+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=37&src=/d/file/content/2017/12/5a4469f01db67.jpg&filename=team1_3.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000664s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-12-28T11:50:20+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=11&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000669s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T11:50:24+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=38&src=/d/file/content/2017/12/5a446a002c046.jpg&filename=team1_4.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000658s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-12-28T11:50:49+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=12&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001474s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T11:50:53+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=39&src=/d/file/content/2017/12/5a446a1d99399.jpg&filename=team1_4.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000757s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-12-28T12:35:41+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=2&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000646s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T12:35:45+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=40&src=/d/file/content/2017/12/5a4474a11480d.jpg&filename=teah1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002208s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-12-28T12:35:56+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=2&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000932s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T12:35:58+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=40&src=/d/file/content/2017/12/5a4474a11480d.jpg&filename=teah1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001108s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-12-28T12:40:26+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|png|bmp,1,,,0&module=Content&catid=2&authkey=136e19a767f41113db626b5689476e8b
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000739s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T12:40:30+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=41&src=/d/file/content/2017/12/5a4475bdf2d04.jpg&filename=teah1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000906s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-12-28T15:32:46+08:00 ] 127.0.0.1 /index.php?g=Attachment&m=Ueditor&a=run&action=uploadimage&catid=8&_https=%2F&isadmin=1&module=contents&uid=1&groupid=0&sessid=1514446354&authkey=6b0f9ab9e7a4030e6ddc1b0712eec5dc&allowupload=1&allowbrowser=1&alowuploadexts=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001003s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0064s ]
+SQL: INSERT INTO `zf_attachment` (`module`,`catid`,`filename`,`filepath`,`filesize`,`fileext`,`isimage`,`isthumb`,`userid`,`isadmin`,`uploadtime`,`uploadip`,`status`,`authcode`) VALUES ('contents','8','image.png','contents/2017/12/5a449e1ef23ae.png','199941','png','1','0','1','1','1514446366','127.0.0.1','0','21a5b6993e3f35056ed96f85d7cf2e8a') [ RunTime:0.0004s ]
+
+[ 2017-12-28T15:39:20+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000677s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:39:25+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=43&src=/d/file/content/2017/12/5a449fad24e01.jpg&filename=team1_1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000781s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-12-28T15:44:36+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000750s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:44:43+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=44&src=/d/file/content/2017/12/5a44a0ebc5bf5.jpg&filename=team1_1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002055s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004127s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2017-12-28T15:44:53+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000730s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:44:57+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=45&src=/d/file/content/2017/12/5a44a0f91b9b5.jpg&filename=team1_2.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001491s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-12-28T15:45:02+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000690s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:45:05+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=46&src=/d/file/content/2017/12/5a44a10160d5b.jpg&filename=team1_3.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000676s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-12-28T15:45:09+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000601s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:45:12+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=47&src=/d/file/content/2017/12/5a44a108ccb75.jpg&filename=team1_4.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000606s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-12-28T15:47:09+08:00 ] 127.0.0.1 /index.php?a=competence&m=Attachments&g=Attachment&args=1,jpg|jpeg|gif|bmp|png,1,,,0&module=content&catid=&authkey=eb802d10af1b850215bea1719e559db5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000707s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: Content D:\www\201712kma\zificms\Application\Attachment\Controller\AttachmentsController.class.php 第 170 行.
+
+[ 2017-12-28T15:47:13+08:00 ] 127.0.0.1 /index.php?a=swfupload_json&m=Attachments&g=Attachment&aid=48&src=/d/file/content/2017/12/5a44a181c0ff9.jpg&filename=team1_1.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000685s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+

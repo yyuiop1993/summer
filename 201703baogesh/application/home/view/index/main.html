@@ -1,0 +1,81 @@
+{extend name="/Common/baseHome" /}
+
+
+{block name="css"}
+<style>
+td:first-child{
+	text-align: right;
+}
+</style>
+{/block}
+
+{block name="body"}
+
+
+<div class="main">
+	<table class="layui-table" lay-skin="line">
+	<colgroup>
+		<col width="150">
+	<col>
+	</colgroup>
+		<thead>
+			<tr >
+				<th colspan="2">网站信息</th>
+			</tr> 
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td>当前时间：</td>
+				<td><a class="time"><?php echo date("Y-m-d H:i:s");?></a></td>
+			</tr>
+
+			<tr>
+				<td>当前域名：</td>
+				<td>{$domain}</td>
+			</tr>
+			
+			
+			<tr>
+				<td>运行环境：</td>
+				<td><?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
+			</tr>
+
+
+			<tr>
+				<td>官方网站：</td>
+				<td><a href="http://www.zhifengchina.cn" target="_blank">www.zhifengchina.cn</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+
+var height =  $("body").height()
+$("body").height(height-10);
+
+$(function(){ 
+	setInterval("getTime();",1000); //每隔一秒执行一次 
+}) 
+//取得系统当前时间 
+function getTime(){ 
+	var myDate = new Date(); 
+	//var date = myDate.toLocaleDateString(); 
+	var year  = myDate.getFullYear();
+    var month = myDate.getMonth() + 1;
+    if(month<10){month = "0"+month}
+    var day   = myDate.getDate();
+
+	var hours   = myDate.getHours(); 
+	var minutes = myDate.getMinutes(); 
+	var seconds = myDate.getSeconds(); 
+	$(".time").html(year+"-"+month+"-"+day+" "+hours+":"+minutes+":"+seconds); //将值赋给div 
+} 
+</script>
+{/block}

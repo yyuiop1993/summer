@@ -1,0 +1,1 @@
+<div class="footer"> &copy; 2012 - {:date("Y")} <a href="http://www.zhifengchina.cn" target="_blank">http://www.zhifengchina.cn</a>（zificms内容管理系统） </div>

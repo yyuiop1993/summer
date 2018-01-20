@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0; 
+	vertical-align: baseline; 
+	font-family: "Microsoft YaHei","sans-serif", "Arial", "Verdana"; 
+}
+body{ font-size: 12px;color: #000000;background-color: #FFFFFF; height: 100%}
+label, input, a img {vertical-align: middle}
+ul, li {list-style-type: none}
+a {text-decoration: none;color: #000000;}
+a:hover {cursor: pointer;color: #F50;}
+h1,h2,h3{ font-weight:normal;}
+select {background: none;}
+img {border-style: none;vertical-align: baseline;border:none;}
+table{ font-size: 12px;}
+table th,table td{ text-align: left; padding-left: 0.5em;}
+
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both;*zoom:1}
+.clearfix:after{content:'.';clear:both;display:block;height:0;visibility:hidden;font-size:0;line-height:0}
+
+.cl000{color: #000}
+.clfff{color: #FFF}
+.clf50{ color: #F50}
+.clf00{color: #FF0000}
+.cl174c{color: #1774CC}/*蓝色*/
+.clf0a{ color: #FF0A00}/*红色*/
+.cl0C8{color:#00C853;}/*绿色*/
+
+
+.pagination{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.pagination li {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #5f5f5f;
+    border: 1px solid #E8E8E6;
+    margin-left: 6px;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.pagination li:hover{
+    background: #FF6838;
+}
+.pagination li:hover a{
+    color: #fff;
+} 
+.pagination li:hover span{
+    cursor: auto;
+}
+
+.pager-linkPage {
+    float: right;
+    padding-right: 20px;
+}
+
+.pager-linkPage a,.pager-linkPage span {
+    display: inline-block;
+    width: 27px;height: 27px;
+    line-height: 27px;
+    color: #5f5f5f;
+    border: 1px solid #E8E8E6;
+    margin-left: 6px;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 3px;
+}
+.pager-linkPage span {
+    margin-left: 8px;
+}
+.pager-linkPage a:hover,.pager-linkPage .upPage:hover,.pager-linkPage .downPage:hover,.pager-linkPage .current{
+    background: #F50;
+    color: #fff;
+    border: 1px solid #F50;
+}
+.pager-linkPage .upPage,.pager-linkPage .downPage {
+    line-height: 27px;
+}
+.pager-linkPage .upPage {
+    display: inline-block;
+    width: 55px;
+    height: 27px;
+    border: 1px solid #E8E8E6;
+}
+.pager-linkPage .downPage{
+    display: inline-block;
+    width: 55px;
+    height: 27px;
+    border: 1px solid #E8E8E6;
+    margin-left: 8px;
+}

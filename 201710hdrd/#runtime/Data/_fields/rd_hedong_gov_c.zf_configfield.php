@@ -1,0 +1,1 @@
+a:7:{i:0;s:3:"fid";i:1;s:9:"fieldname";i:2;s:4:"type";i:3;s:7:"setting";i:4;s:10:"createtime";s:3:"_pk";s:3:"fid";s:5:"_type";a:5:{s:3:"fid";s:11:"smallint(6)";s:9:"fieldname";s:11:"varchar(30)";s:4:"type";s:11:"varchar(10)";s:7:"setting";s:10:"mediumtext";s:10:"createtime";s:7:"int(10)";}}

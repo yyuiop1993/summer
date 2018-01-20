@@ -1,0 +1,113 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.layui-table{
+    width: 98%;
+}
+</style>
+{/block}
+
+{block name="body"}
+
+<div class="main">
+    <div class="form_div" style="display: none">
+        <form action="#" method="get" id="menu_list_search" class="layui-form layui-form-pane">
+           　
+            <input type="hidden" name="m" value="{$controller}">
+            <input type="hidden" name="a" value="{$action}">
+            <input type="hidden" name="type" value="export">
+            <!-- <div class="search_icon">
+                <i class="layui-icon">&#xe615;</i>
+            </div>   -->
+            
+            <!-- <div class="layui-form-item">
+                <label class="layui-form-label">开始日期：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="start_date" onClick="WdatePicker()" lay-verify="title" autocomplete="off"  placeholder="请选择开始日期：" require="" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">结束日期：</label>
+                <div class="layui-input-block">
+                    <div class="layui-input-block" style="margin-left: 0px;">
+                    <input type="text" name="end_date" onClick="WdatePicker()" lay-verify="title" autocomplete="off"  placeholder="请选择结束日期：" require=""  class="layui-input">
+                </div>
+                </div>
+            </div>
+        
+            <button class="layui-btn layui-btn-danger" lay-submit lay-filter="menu_list_search" >导出</button> -->
+            
+            <!-- <a href="{:url('admin/user_add')}" class="add_button" >添加新管理员</a> -->
+
+        </form>
+    </div>
+    <div class="list_div" id="listDiv">
+        <table class="layui-table">
+            <colgroup>
+                <col width="100">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+			      	<th>编号</th>
+			      	<th>标题</th>
+			      	<th>用户名</th>
+			      	<th>状态</th>
+                    <th>添加时间</th>
+			      	<th>操作</th>
+			    </tr> 
+            </thead>
+            <tbody>
+
+                {foreach $list_data as $v} 
+				    <tr>
+				        <td>{$v.id}</td>
+				        <td>{$v.title}</td>
+				        <td>{$v.user_name}</td>
+                        <td>
+                            {eq name="$v.status" value="1"}待审核<br/>{/eq}
+                            {eq name="$v.status" value="2"}信息员已通过<br/>{/eq}
+                            {eq name="$v.status" value="3"}信息员已驳回<br/>{/eq}
+
+                            {eq name="$v.support_status" value="2"}售后服务部已通过<br/>{/eq}
+                            {eq name="$v.support_status" value="3"}售后服务部已驳回<br/>{/eq}
+
+                            {eq name="$v.tech_status" value="2"}技术部已通过<br/>{/eq}
+                            {eq name="$v.tech_status" value="3"}技术部已驳回<br/>{/eq}
+
+                            {eq name="$v.leader_status" value="2"}分管领导已通过{/eq}
+                            {eq name="$v.leader_status" value="3"}分管领导已驳回{/eq}
+                        </td>
+                        <td>{$v.add_time|date="Y-m-d",###}</td>
+
+				        <td>
+                        {if condition="($v.status neq 2) || ($v.support_status neq 2) || ($v.tech_status neq 2) || ($v.leader_status neq 2)   "}
+                            <a href="{:url('service/service_user_edit',array('id'=>$v['id']))}">修改</a>
+                        {else/}
+                            <a href="{:url('service/service_user_show',array('id'=>$v['id']))}">查看</a>
+                        {/if}
+                        </td>
+
+				    </tr>
+				{/foreach}
+
+            </tbody>
+        </table>
+        {$show}
+    </div>
+
+</div>
+
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+
+</script>
+{/block}

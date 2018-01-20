@@ -1,0 +1,52 @@
+[ 2017-12-29T09:09:29+08:00 ] 127.0.0.1 /api.php?m=Hits&catid=2&id=983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000771s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+SQL: SHOW COLUMNS FROM `zf_content` [ RunTime:0.0052s ]
+SQL: SELECT `catid`,`id`,`dayviews`,`monthviews`,`views`,`weekviews`,`yesterdayviews`,`viewsupdatetime` FROM `zf_content` WHERE `id` = 983 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zf_content` SET `views`='2',`yesterdayviews`='1',`dayviews`='1',`weekviews`='2',`monthviews`='2',`viewsupdatetime`='1514509769' WHERE `id` = 983 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-12-29T11:23:39+08:00 ] 127.0.0.1 /api.php?m=Hits&catid=3&id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.002173s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005580s ]
+SQL: SHOW COLUMNS FROM `zf_content_student` [ RunTime:0.0058s ]
+SQL: SELECT `catid`,`id`,`dayviews`,`monthviews`,`views`,`weekviews`,`yesterdayviews`,`viewsupdatetime` FROM `zf_content_student` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zf_content_student` SET `views`='1',`yesterdayviews`='0',`dayviews`='1',`weekviews`='1',`monthviews`='1',`viewsupdatetime`='1514517819' WHERE `id` = 18 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-12-29T11:25:12+08:00 ] 127.0.0.1 /api.php?m=Hits&catid=3&id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000613s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `zf_content_student` [ RunTime:0.0087s ]
+SQL: SELECT `catid`,`id`,`dayviews`,`monthviews`,`views`,`weekviews`,`yesterdayviews`,`viewsupdatetime` FROM `zf_content_student` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `zf_content_student` SET `views`='2',`yesterdayviews`='0',`dayviews`='2',`weekviews`='2',`monthviews`='2',`viewsupdatetime`='1514517912' WHERE `id` = 18 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-12-29T11:27:49+08:00 ] 127.0.0.1 /api.php?m=Hits&catid=3&id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000726s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `zf_content_student` [ RunTime:0.0044s ]
+SQL: SELECT `catid`,`id`,`dayviews`,`monthviews`,`views`,`weekviews`,`yesterdayviews`,`viewsupdatetime` FROM `zf_content_student` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zf_content_student` SET `views`='3',`yesterdayviews`='0',`dayviews`='3',`weekviews`='3',`monthviews`='3',`viewsupdatetime`='1514518069' WHERE `id` = 18 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+

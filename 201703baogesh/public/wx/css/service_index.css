@@ -1,0 +1,30 @@
+.back{
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    background-color: #dbdbdb;
+    line-height: 40px;
+    text-align: center;
+    color: #F50;
+    position: relative;
+}
+.back img{
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.content a{
+    display: block;
+    overflow: hidden;
+    width: 94%; margin: 20px 3% 0px 3%;
+    background-color: #f50;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    text-decoration: none;
+}

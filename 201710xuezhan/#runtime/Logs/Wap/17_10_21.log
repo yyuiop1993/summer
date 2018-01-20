@@ -1,0 +1,48 @@
+[ 2017-10-21T14:46:27+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:46:28+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:09+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:10+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:10+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:11+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:12+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+
+[ 2017-10-21T14:54:16+08:00 ] 127.0.0.1 /index.php?g=Wap
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY id DESC LIMIT 5  
+

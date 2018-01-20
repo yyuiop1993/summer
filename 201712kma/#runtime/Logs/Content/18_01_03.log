@@ -1,0 +1,8 @@
+[ 2018-01-03T13:43:41+08:00 ] 127.0.0.1 /
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=listorder DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `thumb` <> '' AND `status` = 99 ORDER BY listorder DESC LIMIT 5  
+
+[ 2018-01-03T13:50:43+08:00 ] 127.0.0.1 /
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=listorder DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `thumb` <> '' AND `status` = 99 ORDER BY listorder DESC LIMIT 5  
+

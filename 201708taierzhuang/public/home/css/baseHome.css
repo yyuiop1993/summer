@@ -1,0 +1,12 @@
+/*baseHome*/
+.main{
+	padding-top: 10px;
+}
+.layui-breadcrumb{
+	display: block;
+	margin-left: 8px;
+	margin-top: 0px;
+}
+.layui-breadcrumb a:hover{
+	color: #f50 !important;
+}

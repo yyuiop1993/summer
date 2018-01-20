@@ -1,0 +1,103 @@
+
+水平凡标签：
+引入：<template file="Content/head.php"/>
+描述：{$vo.description|str_cut=###,80}
+标题关键词描述：
+<title><if condition=" isset($SEO['title']) && !empty($SEO['title']) ">{$SEO['title']}</if>{$SEO['site_title']}</title>
+<meta name="description" content="{$SEO['description']}" />
+<meta name="keywords" content="{$SEO['keyword']}" />
+缩略图：<if condition="$vo['thumb']">{$vo.thumb}<else />{$config_siteurl}statics/default/images/defaultpic.gif</if>
+时间：{$vo.inputtime|date="Y-m-d",###}
+首页自定义：{:cache('Config.about')}
+栏目链接：{:getCategory(21,'url')}
+栏目名称：{:getCategory(12,'catname')}
+描述：{$vo.description|str_cut=###,37}
+当前栏目：{:getCategory($catid,'catname')}
+当前位置：<a href="{$config_siteurl}">首页</a>&gt;<navigate catid="$catid" space="&gt;" />
+循环：<content action="lists" catid="12"  order="id DESC" num="3"><volist name="data" id="vo">
+
+URL规则：
+{$categorydir}{$catdir}/index.html|{$categorydir}{$catdir}/index_{$page}.html
+{$categorydir}{$catdir}/{$id}.html|{$categorydir}{$catdir}/{$id}_{$page}.html
+
+
+/***************css reset*********/
+body,h1,h2,h3,h4,ul,li,a,input,textarea{margin: 0;padding: 0;font-family: microsoft yahei;}
+div,a,input,textarea{font-size: 14px;color:#323232;}
+body{overflow-x: hidden;}
+h1,h2,h3,h4,p{margin: 0;padding: 0;}
+img{border: none;vertical-align: middle;}
+em{font-style: normal;}
+a{text-decoration: none;}
+ul,li,dl,dt,dd{list-style: none;margin: 0;padding: 0;}
+
+
+
+
+导航：
+<content action="category" catid="0"  order="listorder ASC" >
+<volist name="data" id="vo">
+<li><a href="{$vo.url}" <if condition=' $catid eq $vo["catid"] '> class="hover"</if>>{$vo.catname}</a></li>
+</volist>
+</content>
+
+
+
+列表页面（category.php|list.php通用）：
+<content action="lists" catid="$catid" order="id DESC" num="10" page="$page">
+<volist name="data" id="vo">				
+<li><a href="{$vo.url}">{$vo.title}</a><span>{$vo.inputtime|date="Y-m-d",###}</span></li>
+</volist>
+</content>
+
+
+首页新闻调用：
+<content action="lists" catid="3"  order="id DESC" num="1">
+<volist name="data" id="vo">
+<p><a href="{$vo.url}">{$vo.title}</a><span>{$vo.inputtime|date="Y-m-d",###}</span></p>
+</volist>
+</content>
+
+
+
+首页推荐位：
+
+<position action="position" posid="1" num="6">
+<volist name="data" id="vo">
+<li><a href="{$vo.data.url}">
+<div class="pic"><img src="{$vo.data.thumb}" alt="{$vo.data.title}" /></div><p>{$vo.data.title}</p>
+</a></li>
+</volist>
+</position>
+
+栏目列表：
+<content action="category" catid="7"  order="listorder ASC" >
+<volist name="data" id="vo">
+<dd><a href="{$vo.url}">{$vo.catname}</a></dd>
+</volist>
+</content>
+
+友情链接
+<get table="links" termsid="1" visible="1" order="id DESC">
+<volist name="data" id="vo">
+<a href="{$vo.url}" target="_blank">{$vo.name}</a>
+</volist>
+</get>
+
+
+头条新闻
+
+<content action="hits" catid="9"  order="weekviews DESC" num="1">
+<volist name="data" id="vo">			
+<div class="tout">
+<div class="toutl"><a href="{$vo.url}"><img src="<if condition="$vo['thumb']">{$vo.thumb}<else />{$config_siteurl}statics/default/images/defaultpic.gif</if>" alt="{$vo.title}" /></a></div>
+<div class="toutr">
+<h2><a href="{$vo.url}">{$vo.title}</a></h2>
+<p>{$vo.description|str_cut=###,37}</p>
+</div>
+</div>
+</volist>
+</content>
+
+
+

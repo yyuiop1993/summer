@@ -1,0 +1,67 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/service_list.css"/>
+<style type="text/css">
+
+</style>
+{/block}
+
+{block name="body"}
+<div class="back">
+    <a href="{:url('service/service_list')}">&lt;返回</a>
+    服务信息列表
+</div>
+
+<div class="content">
+
+{foreach name="view_data" item="v" key="key"}
+<table class="layui-table" style="margin-top: 10px;">
+    <colgroup>
+        <col width="100">
+        <col>
+    </colgroup>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <th>部门：</th>
+            <td>{$v.role_name}</td>
+        </tr>
+        <tr>
+            <th>是否通过</th>
+            <td>
+                {eq name="$v.view_status" value="2"}
+                通过
+                {else/}驳回
+                {/eq}
+            </td>
+            
+        </tr>
+        <tr>
+            <th>审批意见</th>
+            <td>
+                {$v.view_content}
+            </td>
+        </tr>
+
+        <tr>
+            <th>审核时间</th>
+            <td>
+                {$v.add_time|date='Y-m-d',###}
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+{/foreach}
+
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+
+</script>
+{/block}

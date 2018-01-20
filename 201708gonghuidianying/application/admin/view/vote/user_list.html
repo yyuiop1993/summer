@@ -1,0 +1,174 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.menu_del{color: #192E32; text-decoration: underline;}
+.menu_del:hover{color: #F50;}
+ .layui-layer-dialog{
+  top:36%;
+   left:40%;
+  }
+</style>
+{/block}
+
+{block name="body"}
+<div class="main">
+    <div class="form_div">
+        <form action="#" method="get" id="menu_list_search" class="layui-form layui-form-pane">
+           　
+            <input type="hidden" name="m" value="menu">
+            <input type="hidden" name="a" value="menu_list">
+            
+            <div class="search_icon">
+                <i class="layui-icon">&#xe615;</i>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">姓名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="keyword" lay-verify="title" autocomplete="off"  placeholder="请输入名称." class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">身份证号</label>
+                <div class="layui-input-block">
+                    <input type="text" name="card" lay-verify="title" autocomplete="off"  placeholder="请输入身份证号." class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">手机号</label>
+                <div class="layui-input-block">
+                    <input type="text" name="mobile" lay-verify="title" autocomplete="off"  placeholder="请输入手机号." class="layui-input">
+                </div>
+            </div>
+
+            <button class="layui-btn layui-btn-danger" lay-submit lay-filter="menu_list_search" >搜索</button>
+            
+
+        </form>
+    </div>
+    <form action="/admin.php/menu/menu_sort" method="post" >
+    
+
+    <div class="list_div" id="listDiv">
+    <fieldset class="layui-elem-field">
+        <legend>信息</legend>
+        <div class="layui-field-box">
+            累计用户：{$ip}
+        </div>
+    </fieldset>
+
+        <table class="layui-table">
+            <colgroup>
+                <col width="60">
+                <col >
+                <col >
+                <col width="15%">
+                <col width="120">
+               <col >
+               <col >
+               <col width="200">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>手机号</th>
+                    <th>身份证号</th>
+                    <th>购票数量</th>
+                    <th>工作单位</th>
+                    <th>是否购票</th>
+                    <th>操作</th>
+                </tr> 
+            </thead>
+            <tbody>
+
+                {foreach $list_data as $v} 
+                    <tr>
+                        <td>{$v.id}</td>
+                        <td>{$v.name}</td>
+                        <td>{$v.mobile}</td>
+                        <td>{$v.card}</td>
+                        <td>{$v.number}</td>
+                        <td>{$v.work_unit}</td>
+                        <td class="work_unit">
+                            {if condition="$v.status == 2"} <span style="color:#FF0005;">是</span>
+                            {else /} 否
+                            {/if}                       
+                        </td>
+                        <td>
+                            <button type="button" data="{$v.id}" class="layui-btn layui-btn-danger layui-btn-small set_on">设为已购票</button>
+
+                            <button type="button" class="layui-btn layui-btn-small menu_del" data="{$v.id}" style="color: #fff" >删除</button>
+                        </td>
+                    </tr>
+                {/foreach}
+                
+            </tbody>
+        </table>
+        <div class="pagediv">{$list_data->render()}</div>
+        
+        <div style="height: 50px;">&nbsp;</div>
+    </div>
+
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+$(".set_on").click(function(){
+    var _this = $(this);
+    var id = _this.attr("data");
+    layer.confirm('您确定要设为已购票吗？', {
+        btn: ['确定','取消'] //按钮
+    }, function(index){
+        layer.close(index);  
+
+        var index_load = layer.load(2, {shade: 0.5});
+        $.post("{:url('vote/user_set')}",{id:id},function(data){
+            layer.close(index_load); 
+            if(data.status){
+                layer.msg(data.msg,{icon: 1}); 
+                var html ='<span style="color:#FF0005;">是</span>';
+                _this.parents("tr").find(".work_unit").html(html);
+            }else{
+                layer.msg(data.msg,{icon: 2});   
+            }
+        });
+
+    }, function(index){
+        layer.close(index);    
+    });
+});
+	
+
+$(".menu_del").click(function(){
+    var _this = $(this);
+    var id = _this.attr("data");
+    layer.confirm('您确定要删除吗？', {
+        btn: ['确定','取消'] //按钮
+    }, function(index){
+        layer.close(index);    
+        var id = _this.attr("data");
+        var index_load = layer.load(2, {shade: 0.5});
+        $.post("{:url('vote/user_del')}",{id:id},function(data){
+            layer.close(index_load); 
+            if(data.status){
+                layer.msg(data.msg,{icon: 1});  
+                _this.parents("tr").remove();
+            }else{
+                layer.msg(data.msg,{icon: 2});   
+            }
+        });
+    }, function(index){
+        layer.close(index);    
+    });
+});
+
+
+</script>
+{/block}

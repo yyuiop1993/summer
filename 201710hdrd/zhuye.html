@@ -1,0 +1,267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="UTF-8";>
+<head>
+<!--<meta name="viewport" content="width=device-width,initial-scale=1.0"/>-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" media="screen" />
+<title>河东区人民代表大会常务委员会</title>
+<link href="home_s/css/global20170228.css" rel="stylesheet" type="text/css">
+<link href="home_s/animated.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="home_s/js/jquery.min20160809.js"></script>
+<style>
+.zx_menu_con .tab_con .tit_tab a.hover { background: #78b929; color: #fff;text-decoration:none;}
+.zx_menu_con .tab_con .tit_tab a{
+     float: left;
+    width: 105px;
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    padding:0px;
+}
+.zx_menu_con .tab_con .b_banner_zfwj{height:88px; width:271px; float:left; display:inline; margin:30px 0 0 20px;}
+.zx_menu_con .tab_con .b_banner_zfwj a{width:49%;float:left}
+.bn-title a{color:#0067cc;}
+.rd_footer a {color: #fff;text-decoration: none;}
+.rd_footer a:hover{color: #c00;}
+</style>
+<script type="text/javascript" src="home_s/js/slideshow20160809.js"></script>
+<script type="text/javascript" src="home_s/js/jquery.backstretch.js"></script>
+<script type="text/javascript">
+  
+  window.onload = function(){
+
+          // $(".fixed_main ul li").stop().addClass("cur");
+          
+          $(".ind_qyzcR ul li.cxcy").stop().addClass("cur");
+          $(".ind_qyzcR ul li.dmap").stop().addClass("cur");
+          $(".ind_xmhsc p img").stop().addClass("cur");
+          $(".ind_lvai p img").stop().addClass("cur");
+          $(".ind_qyzcL img").stop().addClass("cur");
+
+  }
+</script>
+<script type="text/JavaScript">
+
+  $(function(){
+
+       // setInterval('bgchange()',3000);
+       // zsslid();
+       var dwname = getQueryString("dw");
+       if(dwname!=null){
+         switch(dwname){
+            case "xxgk":
+            $(".m1").click();
+            break;
+            case "zxbs":
+            $(".m2").click();
+            break;
+            case "bmfw":
+            $(".m3").click();
+            break;
+            case "hdjl":
+            $(".m4").click();
+            break;
+            case "zjsz":
+            $(".m5").click();
+            break;
+         }
+       }else{
+         $(".top_logo").animate({left:'200px',top:'30px'},1000);
+
+         $(".fixed_main_li1").animate({left:'0px',top:'0px'},1400);
+         $(".fixed_main_li2").animate({left:'312px',top:'0px'},1400);
+         $(".fixed_main_li3").animate({left:'624px',top:'0px'},1400);
+         $(".fixed_main_li4").animate({left:'726px',top:'0px'},1400);
+         $(".fixed_main_li5").animate({left:'968px',top:'0px'},1400);
+
+         $(".fixed_main_li6").animate({left:'0px',top:'162px'},1400);
+         $(".fixed_main_li7").animate({left:'304px',top:'162px'},1400);
+         $(".fixed_main_li8").animate({left:'312px',top:'162px'},1400);
+         $(".fixed_main_li9").animate({left:'624px',top:'162px'},1400);
+          
+       }
+       
+       //var height = Math.round($(document.body).height()*0.4);
+       //$(".chengdiv").attr("style","height:"+height+"px");
+       //var top_bg_height = $(document.body).height()-$(".footer").height()-60;
+       //var menu_top_height = top_bg_height-$(".top_menu").height()-$(".top_con").height()-20;
+       //var menu_top_height = $(document.body).height()-352;
+       //$(".chengdiv").attr("style","height:"+menu_top_height+"px");
+       //$(".top_bg_con").attr("style","height:"+top_bg_height+"px");
+       //$(".zx_menu").attr("style","top:"+menu_top_height+"px");
+       // $(".suggest-container").attr("style","position:absolute;left:60px;top:46px;width:440px;visibility:hidden;");
+
+       
+  })
+
+  function getQueryString(name) { 
+     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+     var r = window.location.search.substr(1).match(reg); 
+     if (r != null) return decodeURI(r[2]); return null; 
+  }
+
+</script>
+
+<script type="text/javascript">
+   function zsslid() {
+        var zsTimer;
+  var zsHeight ="37";
+        var zsSize ="5";
+         var zsnum = 0;
+  if(!window.zsNum) zsNum = 0;
+  function zsScroll(){
+        zsTimer = setInterval(function(){
+            zsSlide(zsHeight,zsnum);
+            zsnum++;
+            if(zsnum == zsSize) zsnum = 0;
+        },3000);
+    }
+          // zsScroll();
+  
+}
+function zsSlide(zsHeight,zsIndex){
+    $(".zscd_newdiv").animate({marginTop : -zsIndex*zsHeight + "px"});
+    zsNum = zsIndex;
+}
+ </script>
+
+</head>
+<body style="background:#4162AE url(images/1.jpg) no-repeat;">
+<!--背景切换开始-->
+<script>
+
+    var date= new Date();
+    var hours=date.getHours();
+    var secoend = parseInt(date.getSeconds());
+    setInterval(function() {
+      secoend++;
+      // console.log(secoend);
+      // if(secoend >= 60){
+      //   secoend = 0;
+      // }
+      if((secoend % 12) >= 0 && (secoend % 12) < 4){
+        console.log(1);
+        $.backstretch([ 
+            "images/1.jpg"
+          ], {
+              fade: 1000,
+              duration: 3000
+          });
+
+     
+        //parseInt(hours)>=17 && parseInt(hours)<19
+      }else if((secoend % 12) >= 4 && (secoend % 12) < 8) {
+        console.log(2);
+        $.backstretch([
+            // "images/P020161111655114902887.jpg"
+            "images/2.jpg"
+          ], {
+              fade: 1000,
+              duration: 3000
+          });
+        //(parseInt(hours)>=19 && parseInt(hours)<=24) ||(parseInt(hours)>=0 && parseInt(hours)<6)
+      }else if((secoend % 12) >= 8 && (secoend % 12) < 12) {
+        console.log(3);
+        $.backstretch([
+            // "images/P020161111655171248036.jpg"
+            "images/3.jpg"
+          ], {
+              fade: 1000,
+              duration: 3000
+          });
+      }
+    },1000);
+    //parseInt(hours)>=6 && parseInt(hours)<17
+    
+</script>
+<!--背景切换结束-->
+<div class="top_con">
+<!--平台指引背景开始-->
+<div class="mydiv_bg" ></div>
+<!--平台指引背景结束-->
+  <div class="top_logo">
+    <a href="javascript:void(0);" >
+      <img src="home_s/images/logo1.png" alt="" />
+    </a>
+  </div>
+  <div class="fixed_main">
+      <ul>
+        <li class="fixed_main_li1">
+          <div class="ani">
+            <a target="_blank" href="/index.php">
+              河东区人大官网
+            </a>
+          </div>
+        </li>
+        <li class="fixed_main_li2">
+          <div class="ani">
+            <a href="http://115.159.221.126/Linyi_hedongRD/login.aspx?Soft=5&;login" target="_blank">
+              河东区人大代表履职服务平台
+            </a>
+          </div>
+        </li>
+        <li class="fixed_main_li3">
+          <div class="ani">
+            <a href="http://115.159.221.126/Linyi_hedongRD/login.aspx?Soft=1&;login" target="_blank">
+              河东区议案建议办理平台
+            </a>
+          </div>
+        </li>
+        <!-- <li class="fixed_main_li4">
+          <div class="ani">
+            <a href="#">
+              预决算公开
+            </a>
+          </div>
+        </li>
+        <li class="fixed_main_li5">
+          <div class="ani">
+            <a href="#">
+              联系我们
+            </a>
+          </div>
+        </li> -->
+        <li class="fixed_main_li6">
+          <div class="ani">
+            <a href="http://115.159.221.126/Linyi_hedongRD/Web/DeputySpace.aspx" target="_blank">
+              河东区“双联”互动交流平台
+            </a>
+          </div>
+        </li>
+        <!-- <li class="fixed_main_li7 fixed_main_ewm">
+          <div class="ani">
+            <div class="fixed_ewm">
+              <img src="images/ewm.jpg" alt="" />
+            </div>
+            <a href="#">
+              微信公众号
+            </a>
+          </div>
+        </li> -->
+        <li class="fixed_main_li8 fixed_main_ewm">
+          <div class="ani">
+            <div class="fixed_ewm">
+              <img src="home_s/images/ewm.jpg" alt="" />
+            </div>
+            <a href="#">
+              安卓客户端
+            </a>
+          </div>
+        </li>
+        <li class="fixed_main_li9 fixed_main_ewm">
+          <div class="ani">
+            <div class="fixed_ewm">
+              <img src="home_s/images/ewm.jpg" alt="" />
+            </div>
+            <a href="#">
+              苹果客户端
+            </a>
+          </div>
+        </li>
+      </ul>
+  </div>
+</div>
+<div class="rd_footer">版权所有：河东区人民代表大会常务委员会 Copyright 2017-2019 All Rights Reserved. 技术支持：<a href="http://www.zhifengchina.cn/"  target="_blank">智峰软件</a></div>
+</body>
+</html>

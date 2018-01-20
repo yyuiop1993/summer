@@ -1,0 +1,162 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.layui-input-block > .layui-input{width: 300px;}
+
+.layui-form-select{width: 170px;}
+.layui-layedit{
+    width: 70%;
+    height: 400px;
+}
+.layui-form-checkbox[lay-skin=primary]{
+    height: 30px!important;
+    line-height: 30px!important;
+}
+</style>
+{/block}
+
+{block name="body"}
+
+<div class="main">
+
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend><a name="nob">{$headArr.title}</a></legend>
+    </fieldset>
+
+    <div class="add_div">
+
+        <form class="layui-form" action="" id="menu_form">
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">标题：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="title"  lay-verify="required" placeholder="请输入通知标题" autocomplete="off" class="layui-input title">
+                </div>
+            </div>
+            
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">接收组：</label>
+                <div class="layui-input-block" >
+                    <div class="role_box">
+                        {foreach $role_list as $v} 
+                        <div class="role_list">
+                            <input type="checkbox" name="read_id[]" lay-skin="primary" title="{$v.role_name}" value="{$v.role_id}" checked="">
+                        </div>
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">内容：</label>
+                <div class="layui-input-block" >
+                    <textarea name="content" placeholder="请输入内容" style="width: 65%;height: 400px;display: none;" class="layui-textarea content_text" id="content1"></textarea>
+                </div>
+            </div>
+            
+            
+
+            <div class="layui-form-item" style="margin-top:40px;margin-bottom: 200px;">
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn button_sub" >立即提交</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__JS__/DatePicker/WdatePicker.js"></script>
+
+
+<script type="text/javascript" src="__JS__/simditor/scripts/module.js"></script>
+<script type="text/javascript" src="__JS__/simditor/scripts/hotkeys.js"></script>
+<script type="text/javascript" src="__JS__/simditor/scripts/uploader.js"></script>
+<script type="text/javascript" src="__JS__/simditor/scripts/simditor.js"></script>
+<link rel="stylesheet" type="text/css" href="__JS__/simditor/styles/simditor.css" />
+
+
+<script charset="utf-8" src="__JS__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__JS__/kindeditor/lang/zh_CN.js"></script>
+        
+<script type="text/javascript">
+var editor;
+$(function() {
+    editor = KindEditor.create('textarea[name="content"]',{
+            allowFileManager : true,
+            pasteType : 1,
+            uploadJson : '__JS__/kindeditor/php/upload_json.php',
+            fileManagerJson : '__JS__/kindeditor/php/file_manager_json.php',
+            afterBlur: function () { this.sync(); }
+        });
+});
+
+/*var editor;
+
+$.ready(function() {
+
+    editor = KindEditor.create('textarea[name="content"]', {
+        allowFileManager : true,
+        pasteType : 1
+        uploadJson : '__JS__/php/upload_json.php',
+        fileManagerJson : '__JS__/php/file_manager_json.php',
+    });
+});
+*/
+
+
+/*富文本编辑器*/
+/*var editor = new Simditor( {  
+    textarea : $('#content1'),  
+    placeholder : '这里输入内容...',  
+    upload : {  
+        url : "{:url('Common/simditor_img')}",                //文件上传的接口地址  
+        params: null,                                       //键值对,指定文件上传接口的额外参数,上传的时候随文件一起提交  
+        fileKey: 'file',                                    //服务器端获取文件数据的参数名  
+        connectionCount: 3,
+        leaveConfirm: '正在上传文件' 
+    }
+});*/
+
+
+
+var url = 0;
+$(".button_sub").click(function(){
+
+    var title =　$(".title").val();
+
+    if(title==''){
+        layer.alert("请填写标题!");
+        return false;
+    }
+
+    var content =　editor.html();
+    if(content==''){
+        layer.alert("请填写简介!");
+        return false;
+    }
+    //console.log($('#menu_form').serialize())
+    //return false;
+    
+    $.post("{:url('notice/ajax_notice_add')}",$('#menu_form').serialize(), function(data){
+        
+         if(data.status){
+           	layer.alert(data.msg,function(){
+                window.location.href = "{:url('notice/notice_list')}";    
+            }); 
+        }else{
+            layer.alert(data.msg);
+        }
+    });
+    
+});
+
+
+</script>
+{/block}

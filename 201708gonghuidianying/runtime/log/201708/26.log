@@ -1,0 +1,1280 @@
+[ 2017-08-26T08:49:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] dy.summer.com/index.php [运行时间：0.029709s][吞吐率：33.66req/s] [内存消耗：1,045.94kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/login.html
+[ log ] dy.summer.com/index.php/admin/login/login.html [运行时间：0.022938s][吞吐率：43.60req/s] [内存消耗：1,040.24kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\www\201708gonghuidianying\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\login\login.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/common/verify.html
+[ log ] dy.summer.com/index.php/admin/common/verify.html [运行时间：0.027570s][吞吐率：36.27req/s] [内存消耗：889.05kb] [文件加载：28]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Common->verify[ D:\www\201708gonghuidianying\application\admin\controller\Common.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/login/do_login.html
+[ log ] dy.summer.com/index.php/admin/login/do_login.html [运行时间：0.058295s][吞吐率：17.15req/s] [内存消耗：1,626.12kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dy.summer.com',
+  'accept' => '*/*',
+  'content-length' => '40',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => '7581',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ D:\www\201708gonghuidianying\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002250s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.010732s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.005265s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_role` WHERE  (  role_id = 1 ) LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] UPDATE `zifi_admin_user`  SET `last_login_ip`='127.0.0.1',`last_login_time`=1503708570  WHERE  `username` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.001822s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.073782s][吞吐率：13.55req/s] [内存消耗：1,911.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010306s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.004936s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.005093s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005487s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.005748s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000527s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.061910s][吞吐率：16.15req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000878s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.005230s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.005476s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005077s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.006006s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000352s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.103902s][吞吐率：9.62req/s] [内存消耗：1,912.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010648s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.007047s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.007022s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.006425s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.006790s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000546s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.063236s][吞吐率：15.81req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.005791s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006721s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005424s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.004784s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000608s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] dy.summer.com/ [运行时间：0.058405s][吞吐率：17.12req/s] [内存消耗：2,022.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wx\controller\Index->index[ D:\www\201708gonghuidianying\application\wx\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/wx\view\index\index.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010670s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.005171s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000564s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.073489s][吞吐率：13.61req/s] [内存消耗：1,911.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006261s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006158s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005182s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.004608s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000326s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T08:49:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.065512s][吞吐率：15.26req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.007504s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.003844s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.004005s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.005050s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000296s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.113825s][吞吐率：8.79req/s] [内存消耗：1,912.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002262s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.008194s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.008431s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.007359s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.010097s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000414s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.084609s][吞吐率：11.82req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002684s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.008010s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.011452s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.007518s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.011700s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000347s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/vote/user_list.html
+[ log ] dy.summer.com/index.php/admin/vote/user_list.html [运行时间：0.094303s][吞吐率：10.60req/s] [内存消耗：2,017.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ D:\www\201708gonghuidianying\application\admin\controller\Vote.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\vote\user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000993s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.007315s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006670s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.008373s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.007314s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.007638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000329s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/vote/user_set.html
+[ log ] dy.summer.com/index.php/admin/vote/user_set.html [运行时间：0.095418s][吞吐率：10.48req/s] [内存消耗：1,944.52kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_set',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/vote/user_list.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://dy.summer.com',
+  'accept' => '*/*',
+  'content-length' => '4',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_set[ D:\www\201708gonghuidianying\application\admin\controller\Vote.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010498s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.005651s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006260s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.008747s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.010773s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.006424s ]
+[ sql ] [ SQL ] UPDATE `zifi_user`  SET `status`=2  WHERE  `id` = 2 [ RunTime:0.001864s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.088741s][吞吐率：11.27req/s] [内存消耗：1,912.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010412s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006357s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006514s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005469s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.006454s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000498s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.082672s][吞吐率：12.10req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.012261s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.006886s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.008359s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.008457s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000447s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:51:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/vote/user_list.html
+[ log ] dy.summer.com/index.php/admin/vote/user_list.html [运行时间：0.101813s][吞吐率：9.82req/s] [内存消耗：2,017.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ D:\www\201708gonghuidianying\application\admin\controller\Vote.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\vote\user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010546s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006820s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.009047s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.006113s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.007690s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.006019s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000212s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.091722s][吞吐率：10.90req/s] [内存消耗：1,912.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002617s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.008312s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.009564s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.006305s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.007763s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000449s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.086734s][吞吐率：11.53req/s] [内存消耗：1,866.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002669s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.010055s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.010404s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.006528s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.010284s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/vote/user_list.html
+[ log ] dy.summer.com/index.php/admin/vote/user_list.html [运行时间：0.101156s][吞吐率：9.89req/s] [内存消耗：2,017.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ D:\www\201708gonghuidianying\application\admin\controller\Vote.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\vote\user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001969s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006296s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.009042s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.007258s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.009879s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.005868s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000325s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/index.html
+[ log ] dy.summer.com/index.php/admin/index/index.html [运行时间：0.092516s][吞吐率：10.81req/s] [内存消耗：1,912.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010789s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006731s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.005762s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005886s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.005763s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000344s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/main.html
+[ log ] dy.summer.com/index.php/admin/index/main.html [运行时间：0.082446s][吞吐率：12.13req/s] [内存消耗：1,866.75kb] [文件加载：44]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\www\201708gonghuidianying\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\index\main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001109s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.005967s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.009395s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.006173s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.014129s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000393s ]
+
+---------------------------------------------------------------
+[ 2017-08-26T10:53:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/vote/user_list.html
+[ log ] dy.summer.com/index.php/admin/vote/user_list.html [运行时间：0.102028s][吞吐率：9.80req/s] [内存消耗：2,017.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\201708gonghuidianying\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=l971nvkuhksmgnha8or7i2bq34',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dy.summer.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'host' => 'dy.summer.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ D:\www\201708gonghuidianying\application\admin\controller\Vote.php ]
+[ info ] [ VIEW ] D:\www\201708gonghuidianying/application/admin\view\vote\user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010678s ] mysql:dbname=201708gonghuidianying;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.006578s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=1 ) LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.008543s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.005838s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (66,67,68,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.010121s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.005263s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000345s ]
+
+---------------------------------------------------------------

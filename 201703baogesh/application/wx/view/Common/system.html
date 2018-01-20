@@ -1,0 +1,50 @@
+
+<select class="system_main" name="system_main">
+	<option value ="0">请选择</option>
+</select>
+
+<select class="system_part" name="system_part">
+	<option value ="0">请选择</option>
+</select>
+
+
+<script type="text/javascript">
+var form;
+var system_main = "{$data.system_main}";
+var system_part = "{$data.system_part}";
+
+
+if(system_main){
+	get_system_main(system_main);
+	get_system_part(system_part,system_main);
+}else{
+	get_system_main(0);
+}
+
+$(".system_main").change(function(){
+	get_system_part(0,$(this).val());
+});
+
+
+function get_system_main(cid=0){
+	$.post("/index.php/wx/Common/get_system_main",{cid:cid},function(data){
+		$(".system_main").html(data);
+	})
+}
+
+
+function get_system_part(cid=0,_this){
+	var id = _this;
+	$.post("/index.php/wx/Common/get_system_part",{id:id,cid:cid},function(data){
+		if(data){
+			$(".system_part").html(data);
+			$(".system_part").show();
+		}else{
+			$(".system_part").html('<option value ="">请选择</option>');
+			//$(".system_part").hide();
+		}
+	});
+}
+
+
+</script>

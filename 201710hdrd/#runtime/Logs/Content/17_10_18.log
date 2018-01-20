@@ -1,0 +1,20 @@
+[ 2017-10-18T09:34:52+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_position_data` WHERE `posid` = 1 AND `catid` IN ('8','31','32','33','34','35','36','37','38') ORDER BY updatetime DESC LIMIT 1  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 1 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 2 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 3 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+
+[ 2017-10-18T09:53:20+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_position_data` WHERE `posid` = 1 AND `catid` IN ('8','31','32','33','34','35','36','37','38') ORDER BY updatetime DESC LIMIT 1  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 1 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 2 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+ERR: 1054:Unknown column 'updatetime' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `zf_links` WHERE `termsid` = 3 AND `visible` = 1 ORDER BY updatetime DESC LIMIT 20  
+

@@ -1,0 +1,1 @@
+a:8:{i:0;s:8:"searchid";i:1;s:2:"id";i:2;s:5:"catid";i:3;s:7:"modelid";i:4;s:7:"adddate";i:5;s:4:"data";s:3:"_pk";s:8:"searchid";s:5:"_type";a:6:{s:8:"searchid";s:16:"int(10) unsigned";s:2:"id";s:21:"mediumint(8) unsigned";s:5:"catid";s:20:"smallint(5) unsigned";s:7:"modelid";s:11:"smallint(5)";s:7:"adddate";s:16:"int(10) unsigned";s:4:"data";s:4:"text";}}

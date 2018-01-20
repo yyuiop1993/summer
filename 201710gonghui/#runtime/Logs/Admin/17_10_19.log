@@ -1,0 +1,6 @@
+[ 2017-10-19T14:14:00+08:00 ] 127.0.0.1 /admin.php
+ERR: 1146:Table 'ghlx_lyzfrj_com.zf_admin_panel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `zf_admin_panel`
+ERR: 1146:Table 'ghlx_lyzfrj_com.zf_admin_panel' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `zf_admin_panel` WHERE `userid` = '1' 
+

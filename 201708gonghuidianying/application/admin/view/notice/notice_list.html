@@ -1,0 +1,123 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.menu_del{color: #192E32; text-decoration: underline;}
+.menu_del:hover{color: #F50;}
+</style>
+{/block}
+
+{block name="body"}
+<div class="main">
+    <div class="form_div">
+        <form action="#" method="get" id="menu_list_search" class="layui-form layui-form-pane">
+           　
+            <input type="hidden" name="m" value="menu">
+            <input type="hidden" name="a" value="menu_list">
+            
+            <div class="search_icon">
+                <i class="layui-icon">&#xe615;</i>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">通知标题：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="keyword" lay-verify="title" autocomplete="off"  placeholder="请输入通知名称." class="layui-input">
+                </div>
+            </div>
+
+            <button class="layui-btn layui-btn-danger" lay-submit lay-filter="menu_list_search" >搜索</button>
+            
+            {if condition="$Think.session.role_id eq 1 "}
+            <a href="{:url('notice/notice_add')}" class="add_button" >添加新通知</a>
+            {/if}
+
+        </form>
+    </div>
+    <form action="{:url('menu/menu_sort')}" method="post" >
+    <div class="list_div" id="listDiv">
+        <table class="layui-table">
+            <colgroup>
+                <col width="60">
+                <col width="40%">
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>标题</th>
+                    <th>发送时间</th>
+                    {if condition="$Think.session.role_id neq 1 "}
+                    <th>状态</th>
+                    {/if}
+                    <th>操作</th>
+                </tr> 
+            </thead>
+            <tbody>
+
+                {foreach $list_data as $v} 
+                    <tr>
+                        <td>{$v.id}<input type="hidden" name="id[]" value="{$v.id}"   /></td>
+                        <td>{$v.title}</td>
+                        <td>{$v.add_time|date="Y-m-d",###}</td>
+                        {if condition="$Think.session.role_id neq 1 "}
+                        <td>
+                            {if condition="$v.status eq 2 "}
+                            已读
+                            {else/}
+                            未读
+                            {/if}
+                        </td>
+                        {/if}
+                        <td>
+                            {if condition="$Think.session.role_id eq 1 "}
+                            <a href="{:url('notice/notice_edit')}?id={$v.id}">通知修改</a>
+                            {else/}
+                            <a href="{:url('notice/notice_edit')}?id={$v.id}">查看详情</a>
+                            {/if}
+                            {if condition="$Think.session.role_id eq 1 "}
+                            <a data="{$v.id}"  class="menu_del"  >删除</a>
+                            {/if}
+                        </td>
+                    </tr>
+                {/foreach}
+                
+            </tbody>
+        </table>
+        {$show}
+        
+    </div>
+
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+$(".menu_del").click(function(){
+    var _this = $(this);
+    var id = _this.attr("data");
+    layer.confirm('您确定要删除吗？', {
+        btn: ['确定','取消'] //按钮
+    }, function(index){
+        layer.close(index);    
+        var id = _this.attr("data");
+        var index_load = layer.load(2, {shade: 0.5});
+        $.post("{:url('notice/notice_del')}",{id:id},function(data){
+            layer.close(index_load); 
+            if(data.status){
+                layer.msg(data.msg,{icon: 1});  
+                _this.parents("tr").remove();
+            }else{
+                layer.msg(data.msg,{icon: 2});   
+            }
+        });
+    }, function(index){
+        layer.close(index);    
+    });
+});
+    
+</script>
+{/block}

@@ -1,0 +1,106 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.menu_del{color: #192E32; text-decoration: underline;}
+.menu_del:hover{color: #F50;}
+</style>
+{/block}
+
+{block name="body"}
+<div class="main">
+    <div class="form_div">
+        <form action="#" method="get" id="menu_list_search" class="layui-form layui-form-pane">
+           　
+            <input type="hidden" name="m" value="menu">
+            <input type="hidden" name="a" value="menu_list">
+            
+            <div class="search_icon">
+                <i class="layui-icon">&#xe615;</i>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">姓名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="keyword" lay-verify="title" autocomplete="off"  placeholder="请输入菜单名称." class="layui-input">
+                </div>
+            </div>
+
+            <button class="layui-btn layui-btn-danger" lay-submit lay-filter="menu_list_search" >搜索</button>
+            
+            <a href="{:url('voteuser/voteuser_add')}" class="add_button" >添加新参选人</a>
+
+        </form>
+    </div>
+    <form action="/admin.php/menu/menu_sort" method="post" >
+    <div class="list_div" id="listDiv">
+        <table class="layui-table">
+            <colgroup>
+                <col width="60">
+                <col width="20%">
+                <col>
+                <col>
+                <col width="15%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>头像</th>
+                    <th>票数</th>
+                    <th>操作</th>
+                </tr> 
+            </thead>
+            <tbody>
+
+                {foreach $list_data as $v} 
+                    <tr>
+                        <td>{$v.id}</td>
+                        <td>{$v.name}</td>
+                        <td><img src="{$v.headimg}" width="50" /></td>
+                        <td>{$v.votes}</td>
+                        <td>
+                        	<a href="{:url('voteuser/voteuser_edit')}?id={$v.id}">修改</a>
+                            <a data="{$v.id}"  class="menu_del"  >删除</a>
+                        </td>
+                    </tr>
+                {/foreach}
+                
+            </tbody>
+        </table>
+       
+        
+    </div>
+
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+$(".menu_del").click(function(){
+    var _this = $(this);
+    var id = _this.attr("data");
+    layer.confirm('您确定要删除吗？', {
+        btn: ['确定','取消'] //按钮
+    }, function(index){
+        layer.close(index);    
+        var id = _this.attr("data");
+        var index_load = layer.load(2, {shade: 0.5});
+        $.post("{:url('voteuser/voteuser_del')}",{id:id},function(data){
+            layer.close(index_load); 
+            if(data.status){
+                layer.msg(data.msg,{icon: 1});  
+                _this.parents("tr").remove();
+            }else{
+                layer.msg(data.msg,{icon: 2});   
+            }
+        });
+    }, function(index){
+        layer.close(index);    
+    });
+});
+	
+</script>
+{/block}

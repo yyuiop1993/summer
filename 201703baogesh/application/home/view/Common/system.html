@@ -1,0 +1,72 @@
+<div class="layui-input-inline">
+	<select  name="system_main" class="system_main" lay-filter="system_main">
+		<option value ="0">请选择</option>
+	</select>
+</div>
+
+<div class="layui-input-inline" style="margin-left: 20px;">
+	<select  name="system_part" class="system_part" lay-filter="system_part">
+		<option value ="0">请选择</option>
+	</select>
+</div>
+
+
+<script type="text/javascript">
+var form;
+var system_main = "{$data.system_main}";
+var system_part = "{$data.system_part}";
+
+
+layui.use(['form'], function(){  
+    form = layui.form();
+
+
+    $(function(){
+    	if(system_main){
+			
+			$.post("/index.php/home/Common/get_system_main",{cid:system_main},function(data){
+
+				$(".system_main").html(data);
+				form.render('select');
+			})
+			
+			$.post("/index.php/home/Common/get_system_part",{id:system_main,cid:system_part},function(data){
+				if(data){
+					$(".system_part").html(data);
+					form.render('select');
+				}else{
+					$(".system_part").html('<option value ="">请选择</option>');
+					form.render('select');
+				}
+			});
+
+		}else{
+			$.post("/index.php/home/Common/get_system_main",{cid:0},function(data){
+				$(".system_main").html(data);
+				form.render('select');
+			})
+		}
+    });
+
+    form.on('select(system_main)', function(data){
+	 	console.log(data.elem); //得到select原始DOM对象
+	 	console.log(data.value); //得到被选中的值
+	 	console.log(data.othis); //得到美化后的DOM对象
+
+	 	var id = data.value;
+	 	$.post("/index.php/home/Common/get_system_part",{id:id,cid:0},function(data){
+			if(data){
+				$(".system_part").html(data);
+				form.render('select');
+			}else{
+				$(".system_part").html('<option value ="">请选择</option>');
+				form.render('select');
+			}
+
+		});
+
+	});    
+
+});
+
+</script>

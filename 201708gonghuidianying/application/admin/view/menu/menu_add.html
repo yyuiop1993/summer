@@ -1,0 +1,125 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.layui-input-block > .layui-input{width: 300px;}
+
+.layui-form-select{width: 170px;}
+
+</style>
+{/block}
+
+{block name="body"}
+
+<div class="main">
+
+<span class="layui-breadcrumb">
+    <a href="{:url('menu/menu_list')}">菜单管理</a>
+    <a><cite>{$headArr.title}</cite></a>
+</span>
+
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend><a name="nob">{$headArr.title}</a></legend>
+    </fieldset>
+
+    <div class="add_div">
+
+        <form class="layui-form" action="" id="menu_form">
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">菜单名称：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="menu_name"  lay-verify="required" placeholder="请输入菜单名称" autocomplete="off" class="layui-input menu_name">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">controlla：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="cc" lay-verify="required" placeholder="请输入controlla名称" autocomplete="off" class="layui-input cc">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">function：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="aa" lay-verify="required" placeholder="请填写function名称" autocomplete="off" class="layui-input aa">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">父级菜单：</label>
+                <div class="layui-input-block">
+                    <select name="fid" lay-verify="required">
+                        <option value="0">一级菜单</option>
+                        {foreach $menu as $v} 
+                            <option value="{$v.id}">{$v.menu_name}</option>
+                        {/foreach}
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">是否显示</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="shows" class="shows" value="1" title="开启" checked >
+                    <input type="radio" name="shows" class="shows" value="0" title="关闭" >
+                </div>
+            </div>
+
+            <div class="layui-form-item" style="margin-top:40px;">
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn button_sub" >立即提交</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__JS__/DatePicker/WdatePicker.js"></script>
+<script type="text/javascript">
+var url = 0;
+$(".button_sub").click(function(){
+
+    var menu_name =　$(".menu_name").val();
+    var fid =　$(".fid").val();
+    var cc =　$(".cc").val();
+    var aa =　$(".aa").val();
+    var shows =　$(".shows").val();
+    
+    if(menu_name==''){
+        layer.alert("请填写菜单名称!");
+        return false;
+    }
+    if(fid){
+        if(cc==''){
+            layer.alert("请填写controller名称!");
+            return false;
+        }
+        if(aa==''){
+            layer.alert("请填写function名称!");
+            return false;
+        } 
+    }
+     
+    $.post("{:url('menu/ajax_menu_add')}",$('#menu_form').serialize(), function(data){
+        
+         if(data.status){
+           	layer.alert(data.msg,function(){
+                window.location.href = "{:url('menu/menu_list')}";    
+            }); 
+        }else{
+            layer.alert(data.msg);
+        }
+    });
+    
+});
+
+
+</script>
+{/block}

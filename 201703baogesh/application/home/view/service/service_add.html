@@ -1,0 +1,583 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/service_add.css"/>
+<style type="text/css">
+#get_province{
+    margin-left: 2px;
+}
+#get_province,#get_city,.work_envir{
+    border: 1px solid #333;
+    width: 140px;
+    height: 24px;
+    line-height: 24px;
+}
+.parts_table thead th span{
+    display: block;
+    height: 20px; 
+    width: 4em;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f50;
+    color: #fff;
+    border-radius: 3px;
+}
+.parts_table tbody td input[type='text']{
+    width: 100%;
+    padding-left: 2px;
+}
+.parts_table tbody td{
+    padding: 5px;
+}
+</style>
+{/block}
+
+{block name="body"}
+<div class="back">
+    <a href="{:url('service/index')}">&lt;返回</a>
+    增加新服务信息
+</div>
+
+<form id="map">
+    <div class="content">
+
+        <div class="map_form">
+
+            <div class="form_item">
+                <label class="form_label">录入时间：</label>
+                <div class="input_block">
+                    <input type="text"  value='<?php echo (date("Y-m-d")); ?>' readonly autocomplete="off" />
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">反馈单号：</label>
+                <div class="input_block">
+                    <input type="text" name="order_num" class="order_num" readonly value="{$order_num}" autocomplete="off" />
+                </div>
+            </div>
+
+            
+
+            <div class="form_item">
+                <label class="form_label">标题：</label>
+                <div class="input_block">
+                    <input type="text" name="title" class="title" required="" placeholder="请输入标题" autocomplete="off" />
+                    <span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">故障代码：</label>
+                <div class="input_block">
+                    <input type="text" name="fault_code" class="fault_code" required="" placeholder="请输入故障代码" autocomplete="off" />
+                    <span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">服务站名称：</label>
+                <div class="input_block">
+                    <input type="text" value="{$role_name}" readonly autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+
+            <div class="form_item">
+                <label class="form_label">机器工作地：</label>
+                <div class="input_block">
+                    {include file="/Common/cate"}<span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">工作环境：</label>
+                <div class="input_block">
+
+                    <select name="work_envir" class="work_envir">
+                        {foreach name="work_envir" item="v" key="k"} 
+                            <option value ="{$k}">{$v}</option>
+                        {/foreach}<span>*</span>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">用户名：</label>
+                <div class="input_block">
+                    <input type="text" name="user_name" class="user_name"  placeholder="请输入用户名" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">电话：</label>
+                <div class="input_block">
+                    <input type="text" name="user_mobile" class="user_mobile"  placeholder="请输入电话" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">用户地址：</label>
+                <div class="input_block">
+                    <input type="text" name="user_address" class="user_address"  placeholder="请输入用户地址" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">机器型号：</label>
+                <div class="input_block">
+                    <input type="text" name="machine_model" class="machine_model"  placeholder="请输入机器型号" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">机器编号：</label>
+                <div class="input_block">
+                    <input type="text" name="machine_number" class="machine_number" placeholder="请输入机器编号" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+
+            
+            <div class="form_item">
+                <label class="form_label">购买日期：</label>
+                <div class="input_block">
+                    <input type="text" name="come_date" class="come_date" autocomplete="off" onClick="WdatePicker()" placeholder="点击选择交机日期" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">故障日期：</label>
+                <div class="input_block">
+                    <input type="text" name="fault_date" class="fault_date" autocomplete="off" onClick="WdatePicker()" placeholder="点击选择故障日期" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">工作时长：</label>
+                <div class="input_block">
+                    <input type="text" name="work_hour" class="work_hour" placeholder="请输入工作时长" autocomplete="off" /><span>*</span>
+                </div>
+            </div>
+
+
+            <div class="form_item" style="height: 90px;">
+                <label class="form_label">用户描述：</label>
+                <div class="input_block">
+                    <textarea name="user_fault_content" class="user_fault_content"></textarea><span>*</span>
+                </div>
+            </div>
+
+
+            <div class="form_item" style="height: 90px;">
+                <label class="form_label">原因分析：</label>
+                <div class="input_block">
+                    <textarea name="analysis_reason" class="analysis_reason"></textarea><span>*</span>
+                </div>
+            </div>
+
+
+            <div class="form_item" style="height: 90px;">
+                <label class="form_label">处理方式：</label>
+                <div class="input_block">
+                    <textarea name="handel_way" class="handel_way"></textarea><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">故障件名称：</label>
+                <div class="input_block">
+                    <input type="text" name="fault_item_name" class="fault_item_name" autocomplete="off" placeholder="请输入故障件名称" /><span>*</span>
+                </div>
+            </div>
+
+            <div class="form_item">
+                <label class="form_label">故障件类型：</label>
+                <div class="input_block">
+                    <input type="text" name="item_type" class="item_type" autocomplete="off"  placeholder="请输入故障件类型" /><span>*</span>
+                </div>
+            </div>
+
+
+            <div class="form_item" style="height: auto;">
+                <label class="form_label">所需配件：</label>
+                <div class="input_block">
+                    <table class="layui-table parts_table" style="width:98%;">
+                        <colgroup>
+                            <col>
+                            <col>
+                            <col>
+                        </colgroup>
+
+
+                        <thead>
+                            <tr>
+                                <th>配件名称<span class="add_parts">添加+</span></th>
+                                <th>配件类型</th>
+                                <th>图号</th>
+                                <th>旧件追溯号</th>
+                                <th>数量</th>
+                            </tr> 
+                        </thead>
+                        <tbody>
+
+                            <tr class="parts_list parts_list_1">
+                                <td><input type="text" name="part_name[]" class="part_name" placeholder="请输入配件名称" autocomplete="off" /></td>
+                                <td><input type="text" name="part_type[]" class="part_type" placeholder="请输入配件类型" autocomplete="off" /></td>
+                                <td><input type="text" name="part_num[]" class="part_num" placeholder="请输入图号" autocomplete="off" /></td>
+                                <td><input type="text" name="part_oldnum[]" class="part_oldnum" placeholder="请输入旧件追溯号" autocomplete="off" /></td>
+                                <td><input type="text" name="part_number[]" class="part_number" placeholder="请输入数量" autocomplete="off" /></td>
+                            </tr>
+                        
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+
+
+            <div class="upload_form">
+
+                <div class="form_item" style="height: auto;">
+                    <label class="form_label">整机图片：</label>
+                    <div class="input_block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_1"  />
+                            <a class="img_button ">
+                                 <input type="file" onchange="upload_img(this,1)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form_item" style="height: auto;">
+                    <label class="form_label">铭牌照片：</label>
+                    <div class="input_block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_2"  />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,2)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item" style="height: auto;">
+                    <label class="form_label">工作小时照片：</label>
+                    <div class="input_block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_3"  />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,3)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+                <div class="form_item" style="height: auto;">
+                    <label class="form_label">新旧件照片：</label>
+                    <div class="input_block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_6" data="5" />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,5)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fault_img_body">
+                    <div class="form_item" style="height: auto;">
+                        <label class="form_label">故障图片：</label>
+                        <div class="input_block">
+                             <div class="save_box" >
+                                <img src="" />
+                                <input type="hidden" name="img[]" class="img_4" data="4" />
+                                <a class="img_button ">
+                                    <input type="file" onchange="upload_img(this,4)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item" style="height: auto;">
+                    <label class="form_label">&nbsp;</label>
+                    <div class="input_block">
+                         <button class="layui-btn layui-btn-small fault_img_but" type="button" >添加故障图片</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a href="javascript:void(0)" class="save_form" >点击保存</a>
+        </div>
+
+    </div>
+
+</form>
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__JS__/layer/layer.js"></script>
+<link rel="stylesheet" href="__JS__/layer/skin/default/layer.css"/>
+
+<script type="text/javascript">
+
+
+function upload_img(obj,type_id){
+    var index = layer.load(2, {shade: [0.3,'#000']});
+    var file = obj.files[0];  
+        
+    //console.log($(obj).parent().find("span").text());
+
+    /*判断类型是不是图片*/
+    if(!/image\/\w+/.test(file.type)){
+        layer.alert("请确保文件为图像类型!",{icon: 2});   
+        return false;   
+    }
+
+    var reader = new FileReader();   
+    reader.readAsDataURL(file);   
+    reader.onload = function(e){   
+        var img = this.result;
+
+        if(img){
+            $(obj).parent().hide()
+            $.post("{:url('service/upload_img')}",{type_id:type_id,img:img},function(data){
+            layer.close(index);
+            if(data.status){ 
+                $(obj).parents(".save_box").find("img").attr("src",'/'+data.src).show()
+                $(obj).parents(".save_box").find("input[type=hidden]").val(data.type_id+'#'+data.path);
+            }else{
+                layer.alert(data.msg,{icon: 2});
+            }
+        });
+        }else{
+            layer.alert("网络错误，请重新选择图片!",{icon: 2});   
+            return false;   
+        }
+    }
+    
+}   
+
+
+/*
+    //微信点击图片
+    $(".qx_img img").click(function(){
+        var img = $(this).attr("src");
+        var img2= img.replace("!300","");
+        wx.previewImage({
+            current: img,
+            urls: [img2]
+        });
+    });
+*/
+var _parts = 2;
+$(function(){
+
+    /*添加新配件*/
+    $(".add_parts").click(function(){
+        var html = '<tr class="parts_list parts_list_'+_parts+'">';
+        
+        html+= '<td><input type="text" name="part_name[]" class="part_name" placeholder="请输入配件名称" autocomplete="off"></td>';
+        html+= '<td><input type="text" name="part_type[]" class="part_type" placeholder="请输入配件类型" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_num[]" class="part_num" placeholder="请输入图号" autocomplete="off"></td>';
+        html+= '<td><input type="text" name="part_oldnum[]" class="part_oldnum" placeholder="请输入旧件追溯号" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_number[]" class="part_number" placeholder="请输入数量" autocomplete="off"></td></tr>';
+
+        $(".parts_table tbody").append(html);
+        _parts++;
+    })
+
+    $(".fault_img_but").click(function(){
+        /*添加故障图片*/
+        html =  '<div class="form_item" style="height: auto;">';
+        html+=  '<label class="form_label">故障图片：</label>';
+        html+=  '<div class="input_block">';
+        html+=  '<div class="save_box" >';
+        html+=  '<img src="" />';
+        html+=  '<input type="hidden" name="img[]" data="4" />';
+        html+=  '<a class="img_button ">';
+        html+=  '<input type="file" onchange="upload_img(this,4)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>';
+        html+=  '</a></div></div></div>';
+
+        $(".fault_img_body").append(html);
+        _parts++;
+    })
+
+    $(".save_form").click(function(){
+        var temp = $(".title").val();
+        if(temp==''){
+            layer.alert("请填写标题!",{icon: 2},function(){
+                $(".title").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".fault_code").val();
+        if(temp==''){
+            layer.alert("请填写故障代码!",{icon: 2},function(){
+                $(".fault_code").focus();
+            });
+            return false;
+        }
+
+        var temp = $("#get_province").val();
+        if(temp==''){
+            layer.alert("请选择机器工作地!",{icon: 2},function(){
+                $(".get_province").focus();
+            });
+            return false;
+        }
+
+        var temp = $("#get_city").val();
+        if(temp==''){
+            layer.alert("请选择机器工作地!",{icon: 2},function(){
+                $(".get_city").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_name").val();
+        if(temp==''){
+            layer.alert("请填写用户名!",{icon: 2},function(){
+                $(".user_name").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_mobile").val();
+        if(temp==''){
+            layer.alert("请填写用户电话!",{icon: 2},function(){
+                $(".user_mobile").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_address").val();
+        if(temp==''){
+            layer.alert("请填写用户地址!",{icon: 2},function(){
+                $(".user_address").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".machine_model").val();
+        if(temp==''){
+            layer.alert("请填写机器型号!",{icon: 2},function(){
+                $(".machine_model").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".machine_number").val();
+        if(temp==''){
+            layer.alert("请填写机器编号!",{icon: 2},function(){
+                $(".machine_number").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".come_date").val();
+        if(temp==''){
+            layer.alert("请选择交机日期!",{icon: 2},function(){
+                $(".come_date").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".fault_date").val();
+        if(temp==''){
+            layer.alert("请选择故障日期!",{icon: 2},function(){
+                $(".fault_date").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_fault_content").val();
+        if(temp==''){
+            layer.alert("请填写用户描述!",{icon: 2},function(){
+                $(".user_fault_content").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".analysis_reason").val();
+        if(temp==''){
+            layer.alert("请填写原因分析!",{icon: 2},function(){
+                $(".analysis_reason").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".handel_way").val();
+        if(temp==''){
+            layer.alert("请填写处理方式!",{icon: 2},function(){
+                $(".handel_way").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".img_1").val();
+        if(temp==''){
+            layer.alert("请上传整机图片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_2").val();
+        if(temp==''){
+            layer.alert("请上传铭牌照片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_3").val();
+        if(temp==''){
+            layer.alert("请上传工作小时照片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_4").val();
+        if(temp==''){
+            layer.alert("请上传故障图片!",{icon: 2});
+            return false;
+        }
+
+
+        var temp = $(".img_6").val();
+        if(temp==''){
+            layer.alert("请上传新旧件照片!",{icon: 2});
+            return false;
+        }
+
+
+        //var loading = layer.load(2, {shade: [0.5,'#fff']});
+
+        $.post("{:url('service/ajax_service_add')}",$("#map").serialize(),function(data){
+            layer.close(loading)
+            if(data.status){ 
+                index = layer.alert('保存成功',{icon: 1},function(){
+                    window.location.href = "{:url('service/service_list')}";
+                });
+            }else{
+                layer.alert(data.msg,{icon: 2});
+                //window.reload();
+            }
+        });
+    });
+
+
+    
+});
+
+</script>
+{/block}

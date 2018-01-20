@@ -1,0 +1,65 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+
+</style>
+{/block}
+
+
+
+
+{block name="body"}
+
+<div class="map_form">
+
+        <form action="#" method="get"  class="layui-form">
+           　
+            <input type="hidden" name="m" value="{$controller}">
+            <input type="hidden" name="a" value="{$action}">
+            <input type="hidden" name="type" value="export">
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">开始日期：</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="start_date" onClick="WdatePicker()" lay-verify="title" autocomplete="off"  placeholder="请选择开始日期" require="" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">结束日期：</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="end_date" onClick="WdatePicker()" lay-verify="title" autocomplete="off"  placeholder="请选择结束日期" require=""  class="layui-input">
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item" style="display: none;">
+                <label class="form_label layui-form-label">故障位置：</label>
+                <div class="input_block layui-input-block">
+                    {include file="/Common/system"}
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label"></label>
+                <div class="input_block layui-input-block">
+                    <button class="layui-btn layui-btn-danger" lay-submit class="menu_list_search" lay-filter="menu_list_search" >导出</button>
+                </div>
+            </div>
+            
+            
+            <!-- <a href="{:url('admin/user_add')}" class="add_button" >添加新管理员</a> -->
+
+        </form>
+
+</div>
+
+{/block}
+
+{block name="js"}
+
+<script type="text/javascript">
+
+</script>
+{/block}

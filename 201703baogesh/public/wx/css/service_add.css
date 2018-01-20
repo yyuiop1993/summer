@@ -1,0 +1,170 @@
+.back{
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    background-color: #dbdbdb;
+    line-height: 40px;
+    text-align: center;
+    color: #F50;
+}
+.back a{
+    font-size: 12px;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top:0;
+}
+#container{ 
+    width: 100%; 
+    height:450px;
+    border-bottom: 2px solid #dbdbdb;
+}
+.save_local{
+    display: block;
+    overflow: hidden;
+    width: 94%; margin: 20px 3% 0px 3%;
+    background-color: #f50;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    text-decoration: none;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.form_item{
+    width: 100%;
+    overflow: hidden;
+    height: 45px;  
+    line-height: 45px;
+    margin-top: 10px;
+    height: auto;
+}
+.form_label{
+    width: 25%;
+    overflow: hidden;
+    text-align: right;
+    float: left;
+    font-size: 14px;
+}
+.input_block{
+    width: 75%;
+    overflow: hidden;
+    float: left;
+}
+.input_block>span{
+    color: #FF0005;
+    font-size: 18px;
+}
+.input_block input[type='text']{
+    width: 90%;
+    padding-left: 10px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+.save_form{
+    display: block;
+    overflow: hidden;
+    width: 94%; margin: 10px 3% 10px 3%;
+    background-color: #f50;
+    border-radius: 5px;
+    color: #fff;
+    height: 35px;
+    line-height:35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.upload_form{
+    display: block;
+    overflow: hidden;
+    height: auto;
+    border-top: 2px solid #DBDBDB;
+    margin-top: 10px;
+}
+
+.upload_form .img_list{
+    overflow: hidden;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.upload_form .img_list .img_item{
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.upload_form .save_box{
+    overflow: hidden;
+}
+.upload_form .save_box>img{
+    display: none;
+    width: 90%;
+}
+select{
+    border:1px solid #333;
+    height: 26px;
+    width: 100px;
+    margin-top:6px;
+}
+
+/*上传样式*/
+.img_button {
+    margin-top: 7px;
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}   
+
+.img_button input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+textarea{
+	width: 90%;
+	margin:2px 4% 0 1%;
+	height: 90px;
+}
+
+
+@media screen and (max-width:320px){
+    #container{height: 300px;}
+}
+@media screen and (min-width:321px) and (max-width: 375px){
+    #container{height: 375px;}
+}
+@media screen and (min-width:376px){
+    #container{height: 450px;}
+}
+
+
+
+

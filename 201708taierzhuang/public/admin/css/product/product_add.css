@@ -1,0 +1,59 @@
+@charset "utf-8";
+.product_add .item_title{
+	height: 38px;
+	line-height: 38px;
+	padding-left: 10px;
+	margin: 15px;
+	border-radius: 5px;
+	border: 1px solid #E6E6E6;
+	font-size: 16px;
+}
+.product_add .layui-input-block .layui-input{
+	width: 80%;
+}
+.product_add .brand_id_item .layui-input-block{
+	width: 200px;
+}
+.product_add .layui-form-label{
+	width: 100px;
+}
+
+.kv_box .layui-input{
+	display:inline-block;
+}
+.kv_box tr{
+	border-bottom: 1px solid #E6E6E6;
+}
+.product_add .layui_textarea{
+	width: 90%;
+}
+
+.product_add .layui_upload{
+	margin-left: 3%;
+}
+.img_all{
+	clear:both;
+	overflow: hidden;
+}
+.img_all .img_list{
+	width: 180px;
+ 
+	margin-left:5px;
+	float: left;
+}
+.img_all .img_list a img{
+	width: 180px;
+}
+.img_all .img_list .edit_but{
+	margin-top: 10px;
+}
+.img_all .img_list .edit_but .webuploader-pick{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+}
+#file_img{
+	margin-top: 10px;
+	border-top: 1px solid #E6E6E6;
+}

@@ -1,0 +1,50 @@
+<select id="get_province" name="work_province">
+	<option value ="0">请选择省</option>
+</select>
+
+<select id="get_city" name="work_city">
+	<option value ="0">请选择市</option>
+</select>
+
+
+
+<script type="text/javascript">
+
+
+function get_province(cid=0){
+	$.post(url("Common/get_province"),{cid:cid},function(data){
+		$("#get_province").html(data);
+	})
+}
+
+function get_city(cid=0,_this){
+	var id = _this;
+	$.post(url("Common/get_city"),{id:id,cid:cid},function(data){
+		if(data){
+			$("#get_city").html(data);
+			$("#get_city").show();
+		}else{
+			$("#get_city").html('<option value ="">请选择</option>');
+			//$("#get_city").hide();
+
+		}
+	});
+}
+
+
+var province_id = "{$data.work_province}";
+var city_id = "{$data.work_city}";
+
+if(province_id){
+	get_province(province_id);
+	get_city(city_id,province_id);
+}else{
+	get_province(0);
+}
+
+$("#get_province").change(function(){
+	get_city(0,$(this).val());
+});
+
+
+</script>

@@ -1,0 +1,26 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/service_index.css"/>
+<style type="text/css">
+
+</style>
+{/block}
+
+{block name="body"}
+<div class="back">
+    山东宝格-产品质量信息反馈
+</div>
+<div class="content">
+    <a href="{:url('service/service_add')}">增加新反馈信息</a>
+    <a href="{:url('service/service_list')}">反馈信息列表</a>
+    <a href="{:url('Login/logout')}" style="margin-top: 20px;background-color:#2668B0; ">退出登陆</a> 
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+
+</script>
+{/block}

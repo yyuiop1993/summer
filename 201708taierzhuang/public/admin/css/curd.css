@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*list*/
+td {
+	text-align: center
+}
+/*搜索栏部分*/
+.form_div {
+	height: 38px;
+	border: 1px solid #E2E2E2;
+	padding:5px 0;
+	width: 98%;
+	margin: 0 auto;
+	margin-top:10px;
+}
+.form_div .search_icon{
+	height: 38px;
+	width: 38px;
+	vertical-align: middle;
+	float: left;
+	margin:0 5px;
+}
+.form_div .search_icon i{
+	font-size: 38px;
+}
+
+.add_button{
+	float:right;
+	margin-right: 15px;
+	display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    background-color: #1E9FFF;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .9;
+}
+.add_button:hover{
+	color: #fff;
+	background-color: #4B95CE;
+}
+/*form_div layui 覆盖*/
+.form_div .layui-form-item{
+	float: left;
+	clear: none;
+	margin-left: 10px;
+	width: 250px;
+}
+.form_div .layui-form-pane .layui-form-label{
+	width: 80px;
+	padding: 8px 5px;
+}
+.form_div .layui-form-pane .layui-input-block{
+	margin-left: 80px;
+}
+.form_div .layui-btn{
+	padding: 0 20px;
+	border-radius: 5px;
+}
+/*
+ 列表部分的样式
+ */
+.list_div {
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.list_div td span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.list_div i{
+	font-size: 26px;
+}
+.list_div .icon_yes i{
+	color: #43c84a;
+}
+.list_div .icon_no{
+	transform:rotate(45deg);
+}
+.list_div .icon_no i{
+	color: red;
+}
+.list_div .caozuo a{
+	display: inline-block;
+	overflow: hidden;
+}
+.list_div .caozuo a img{
+	width: 20px;
+	height:20px;
+	cursor: pointer;
+}
+
+
+/**/

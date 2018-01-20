@@ -1,0 +1,558 @@
+[ 2017-12-31T11:49:05+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000600s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 5 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: waplist_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 114 行.
+NOTIC: [8] Undefined index: wapshow_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 116 行.
+SQL: UPDATE `zf_category` SET `catid`='5',`module`='content',`type`='1',`modelid`='0',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='5',`catname`='段位查询',`encatname`='dsearch',`image`='',`description`='',`parentdir`='',`catdir`='dsearch',`url`='',`hits`='0',`setting`='a:12:{s:6:\"seturl\";s:0:\"\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"page_template\";s:16:\"page_duanwei.php\";s:6:\"ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";N;s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";N;s:16:\"wapshow_template\";N;s:16:\"wappage_template\";s:16:\"page_duanwei.php\";}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='duanweichaxun' WHERE `catid` = 5 [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 5 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0074s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=5','1514692145','127.0.0.1') [ RunTime:0.0018s ]
+
+[ 2017-12-31T11:49:10+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000571s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 6 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: waplist_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 114 行.
+NOTIC: [8] Undefined index: wapshow_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 116 行.
+SQL: UPDATE `zf_category` SET `catid`='6',`module`='content',`type`='1',`modelid`='0',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='6',`catname`='联系我们',`encatname`='contact',`image`='',`description`='',`parentdir`='',`catdir`='contact',`url`='',`hits`='0',`setting`='a:12:{s:6:\"seturl\";s:0:\"\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"page_template\";s:16:\"page_contact.php\";s:6:\"ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";N;s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";N;s:16:\"wapshow_template\";N;s:16:\"wappage_template\";s:16:\"page_contact.php\";}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='lianxiwomen' WHERE `catid` = 6 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 6 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0039s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=6','1514692150','127.0.0.1') [ RunTime:0.0004s ]
+
+[ 2017-12-31T12:40:51+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,1  
+
+[ 2017-12-31T12:41:33+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,1  
+
+[ 2017-12-31T12:45:53+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,1  
+
+[ 2017-12-31T12:46:22+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000681s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 2 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='2',`module`='content',`type`='0',`modelid`='1',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='2',`catname`='教练阵容',`encatname`='teacher',`image`='',`description`='',`parentdir`='',`catdir`='teacher',`url`='',`hits`='0',`setting`='a:19:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:17:\"category_template\";s:12:\"category.php\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:8:\"show.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='jiaolianzhenrong' WHERE `catid` = 2 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0043s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=2','1514695582','127.0.0.1') [ RunTime:0.0003s ]
+
+[ 2017-12-31T12:46:30+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000515s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='3',`module`='content',`type`='0',`modelid`='12',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='3',`catname`='学员风采',`encatname`='student',`image`='',`description`='',`parentdir`='',`catdir`='student',`url`='',`hits`='0',`setting`='a:18:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:8:\"show.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='xueyuanfengcai' WHERE `catid` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0040s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=3','1514695590','127.0.0.1') [ RunTime:0.0004s ]
+
+[ 2017-12-31T12:46:34+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000710s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='4',`module`='content',`type`='0',`modelid`='1',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='4',`catname`='兄弟拳馆',`encatname`='brother',`image`='',`description`='',`parentdir`='',`catdir`='brother',`url`='',`hits`='0',`setting`='a:19:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:17:\"category_template\";s:12:\"category.php\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:8:\"show.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='xiongdiquanguan' WHERE `catid` = 4 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 4 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0051s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=4','1514695594','127.0.0.1') [ RunTime:0.0004s ]
+
+[ 2017-12-31T12:46:49+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T12:46:54+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T13:15:39+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T13:18:53+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:57:33+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:10+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:14+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:15+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:38+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:58:46+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:59:04+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T15:59:05+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:00:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:00:41+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:00:42+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:01:37+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:01:43+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:01:44+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:01:44+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:02:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:02:24+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:02:24+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:03:50+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:04:13+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:04:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:04:28+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:04:49+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:04:52+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:06:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:07:08+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:07:51+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:13+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:32+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:33+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:33+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:42+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:42+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:08:43+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:09:25+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:09:46+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:09:53+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:09:54+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:10:01+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:10:02+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:10:09+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:10:19+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:10:29+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:13:27+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:13:28+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:23:05+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:23:20+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:24:36+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,2  
+
+[ 2017-12-31T16:24:38+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2&page=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 2,2  
+
+[ 2017-12-31T16:24:39+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2&page=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 4,2  
+
+[ 2017-12-31T16:24:41+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,2  
+
+[ 2017-12-31T16:24:44+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:24:49+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:25:20+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000597s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='3',`module`='content',`type`='0',`modelid`='12',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='3',`catname`='学员风采',`encatname`='student',`image`='',`description`='',`parentdir`='',`catdir`='student',`url`='',`hits`='0',`setting`='a:18:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:8:\"show.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='xueyuanfengcai' WHERE `catid` = 3 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0067s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=3','1514708720','127.0.0.1') [ RunTime:0.0017s ]
+
+[ 2017-12-31T16:25:24+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000463s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='4',`module`='content',`type`='0',`modelid`='1',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='4',`catname`='兄弟拳馆',`encatname`='brother',`image`='',`description`='',`parentdir`='',`catdir`='brother',`url`='',`hits`='0',`setting`='a:19:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:17:\"category_template\";s:12:\"category.php\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:8:\"show.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='xiongdiquanguan' WHERE `catid` = 4 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0044s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=4','1514708724','127.0.0.1') [ RunTime:0.0004s ]
+
+[ 2017-12-31T16:25:29+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:08+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:09+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:09+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:36+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:37+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:44+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:45+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:26:50+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:16+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T16:27:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T18:55:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T18:56:23+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T18:57:03+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T19:22:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=3
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content_student` WHERE `catid` IN ('3') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+
+[ 2017-12-31T19:26:06+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000821s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: wappage_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 118 行.
+SQL: UPDATE `zf_category` SET `catid`='3',`module`='content',`type`='0',`modelid`='12',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='3',`catname`='学员风采',`encatname`='student',`image`='',`description`='',`parentdir`='',`catdir`='student',`url`='',`hits`='0',`setting`='a:18:{s:6:\"seturl\";s:0:\"\";s:12:\"generatehtml\";s:1:\"1\";s:12:\"generatelish\";s:1:\"0\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"list_template\";s:8:\"list.php\";s:13:\"show_template\";s:8:\"show.php\";s:19:\"list_customtemplate\";s:0:\"\";s:6:\"ishtml\";s:1:\"0\";s:9:\"repagenum\";s:0:\"\";s:14:\"content_ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";s:1:\"4\";s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";s:12:\"list_pic.php\";s:16:\"wapshow_template\";s:16:\"show_student.php\";s:16:\"wappage_template\";N;}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='xueyuanfengcai' WHERE `catid` = 3 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0061s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=3','1514719566','127.0.0.1') [ RunTime:0.0008s ]
+
+[ 2017-12-31T19:48:36+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000627s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 5 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: waplist_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 114 行.
+NOTIC: [8] Undefined index: wapshow_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 116 行.
+SQL: UPDATE `zf_category` SET `catid`='5',`module`='content',`type`='1',`modelid`='0',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='5',`catname`='段位查询',`encatname`='dsearch',`image`='',`description`='',`parentdir`='',`catdir`='dsearch',`url`='',`hits`='0',`setting`='a:12:{s:6:\"seturl\";s:0:\"\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"page_template\";s:16:\"page_duanwei.php\";s:6:\"ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";N;s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";N;s:16:\"wapshow_template\";N;s:16:\"wappage_template\";s:16:\"page_duanwei.php\";}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='duanweichaxun' WHERE `catid` = 5 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 5 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0030s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=5','1514720916','127.0.0.1') [ RunTime:0.0028s ]
+
+[ 2017-12-31T19:48:43+08:00 ] 127.0.0.1 /index.php?g=Wap&m=Wap&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000652s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 6 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: wapcategory_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 112 行.
+NOTIC: [8] Undefined index: waplist_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 114 行.
+NOTIC: [8] Undefined index: wapshow_template D:\www\201712kma\zificms\Application\Wap\Controller\WapController.class.php 第 116 行.
+SQL: UPDATE `zf_category` SET `catid`='6',`module`='content',`type`='1',`modelid`='0',`domain`='',`parentid`='0',`arrparentid`='0',`child`='0',`arrchildid`='6',`catname`='联系我们',`encatname`='contact',`image`='',`description`='',`parentdir`='',`catdir`='contact',`url`='',`hits`='0',`setting`='a:12:{s:6:\"seturl\";s:0:\"\";s:10:\"meta_title\";s:0:\"\";s:13:\"meta_keywords\";s:0:\"\";s:16:\"meta_description\";s:0:\"\";s:13:\"page_template\";s:16:\"page_contact.php\";s:6:\"ishtml\";s:1:\"0\";s:15:\"category_ruleid\";s:1:\"1\";s:11:\"show_ruleid\";N;s:20:\"wapcategory_template\";N;s:16:\"waplist_template\";N;s:16:\"wapshow_template\";N;s:16:\"wappage_template\";s:16:\"page_contact.php\";}',`listorder`='0',`ismenu`='1',`sethtml`='0',`letter`='lianxiwomen' WHERE `catid` = 6 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zf_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_category` WHERE `catid` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: extend D:\www\201712kma\zificms\Common\Common\common.php 第 421 行.
+NOTIC: [8] Undefined index: host D:\www\201712kma\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201712kma\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0043s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：3G版栏目配置更新成功！记得点击右上角的清除缓存！<br/>模块：Wap,控制器：Wap,方法：edit<br/>请求方式：Ajax','http://kma.com/index.php?g=Wap&m=Wap&a=edit&catid=6','1514720923','127.0.0.1') [ RunTime:0.0005s ]
+
+[ 2017-12-31T20:33:17+08:00 ] 127.0.0.1 /index.php?g=Wap&a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=id DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY id DESC LIMIT 0,12  
+

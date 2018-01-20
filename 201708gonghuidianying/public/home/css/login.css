@@ -1,0 +1,111 @@
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#wrap .back{
+	width: 1920px;
+	height: 1080px;
+	background: url(../images/back.jpg) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-960px; 
+	margin-top:-540px;
+}
+.login_box{
+	height: 300px;
+	width: 500px;
+	box-shadow: 0 0 20px #333;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -150px;
+	z-index: 100;
+}
+.login_box h3{
+	color: #B7883E;
+	font-size: 24px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.login_box h3 span{
+	font-size: 16px;
+	color: #ccc;
+}
+.login_box .input_text{
+	margin-left: 80px;
+}
+.login_box .input_text input{
+	height: 38px;
+	border: 1px solid #E6E6E6;
+	padding-left: 38px;
+	margin-top: 18px;
+	width: 350px;
+	font-size: 12px;
+}
+.login_box .input_text input:hover{
+	border: 1px solid #B7B7B7;
+}
+.login_box .input_code{
+	clear: both;
+	overflow: hidden;
+}
+.login_box .input_code input{
+	width: 230px;
+	float: left;
+}
+
+.login_box .input_code span{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 38px;
+	background-color: #000;
+	margin-left:20px;
+	margin-top: 1px;
+	border-radius: 3px;
+	margin-top: 18px;
+}
+
+.login_box .username{
+    position: relative;
+    background: url(../images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px 7px;
+}
+
+.login_box .password{
+    position: relative;
+    background: url(../images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px -20px;
+}
+
+.login_box .code{
+    position: relative;
+    background: url(../images/icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 8px -48px;
+}
+
+.login_box .input_sub{
+	clear: both;
+}
+.login_box .button_sub{
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #1AA094;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+.login_box .button_sub:hover{
+	background-color: #33AB9F;
+}

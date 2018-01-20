@@ -1,0 +1,650 @@
+[ 2017-10-21T10:52:34+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:05+08:00 ] 127.0.0.1 /index.php?a=lists&catid=5
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:06+08:00 ] 127.0.0.1 /index.php?a=lists&catid=5
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:07+08:00 ] 127.0.0.1 /index.php?a=lists&catid=5
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:46+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:47+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:49+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T10:53:50+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:01:26+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000925s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0055s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554886' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-10-21T11:01:36+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000642s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0058s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554896' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-10-21T11:01:46+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.001573s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004148s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0049s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554906' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-10-21T11:01:56+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000644s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0043s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554916' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-21T11:02:06+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000804s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0036s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554926' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-10-21T11:02:16+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000849s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0033s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554936' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-10-21T11:02:26+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000481s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0040s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554946' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-10-21T11:02:36+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000427s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0032s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554956' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-21T11:02:46+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000655s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0062s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554966' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-10-21T11:02:56+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000425s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0033s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554976' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-10-21T11:03:06+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000415s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0033s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554986' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-10-21T11:03:16+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000378s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0031s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508554996' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-10-21T11:03:26+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000363s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0035s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508555006' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-10-21T11:03:36+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000412s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0034s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508555016' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-21T11:03:46+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000410s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0031s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508555026' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-10-21T11:03:53+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:03:56+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=4&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000488s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0033s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508555036' WHERE `id` = 8 AND `catid` = 4 AND `userid` = 1 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-10-21T11:04:10+08:00 ] 127.0.0.1 /
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T11:04:11+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:04:13+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:04:15+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:04:17+08:00 ] 127.0.0.1 /index.php?a=lists&catid=5
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:04:17+08:00 ] 127.0.0.1 /index.php?a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T11:04:18+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T11:04:34+08:00 ] 127.0.0.1 /
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T11:04:43+08:00 ] 127.0.0.1 /index.php?m=Content&a=public_lock_renewal&catid=2&id=941
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000631s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: info D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0049s ]
+SQL: UPDATE `zf_locking` SET `locktime`='1508555083' WHERE `id` = 941 AND `catid` = 2 AND `userid` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-10-21T11:04:43+08:00 ] 127.0.0.1 /index.php?m=Content&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000670s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_content` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `zf_locking` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zf_locking` WHERE `catid` = 2 AND `id` = 0 AND `locktime` >= 1508554783 LIMIT 1   [ RunTime:0.0006s ]
+SQL: DELETE FROM `zf_locking` WHERE `locktime` < 1508554783 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zf_content` WHERE `id` = 941 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: prefix D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 342 行.
+NOTIC: [8] Undefined index: prefix D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 342 行.
+NOTIC: [8] Undefined index: __hash__ D:\www\201710xuezhan\zificms\Libs\System\Content.class.php 第 275 行.
+SQL: SELECT `inputtime` FROM `zf_content` WHERE `id` = 941 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: prefix D:\www\201710xuezhan\zificms\Libs\System\Url.class.php 第 146 行.
+NOTIC: [8] Undefined variable: domain D:\www\201710xuezhan\zificms\Libs\System\Url.class.php 第 278 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: fileexclude D:\www\201710xuezhan\zificms\Libs\Driver\Attachment\Local.class.php 第 219 行.
+NOTIC: [8] Undefined index: scheme D:\www\201710xuezhan\zificms\Common\Common\common.php 第 592 行.
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\common.php 第 592 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_input.class.php 第 150 行.
+NOTIC: [8] Undefined index: mapping_name D:\www\201710xuezhan\zificms\Application\Content\Model\ContentModel.class.php 第 153 行.
+SQL: SHOW COLUMNS FROM `zf_content_data` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: _validateSideTables D:\www\201710xuezhan\zificms\Application\Content\Model\ContentModel.class.php 第 209 行.
+NOTIC: [8] Undefined variable: _autoSideTables D:\www\201710xuezhan\zificms\Application\Content\Model\ContentModel.class.php 第 209 行.
+NOTIC: [8] Undefined offset: 0 D:\www\201710xuezhan\zificms\Core\Library\Think\Db\Driver.class.php 第 372 行.
+SQL: UPDATE `zf_content` SET `id`='941',`catid`='2',`title`='临沂市中心血站完成核酸检测实验室技术审核工作',`keywords`='',`tags`='',`author`='临沂市中心血站',`description`='2017年9月15日，山东省临床基因扩增检验实验室技术审核专家组一行4人对我站检验科核酸检测实验室进行了技术审核。审核组成员为山东省临床检验中心卢志明主任、山东省血液中心朱海峰主任、临沂市人民医院诸葛宝忠主任、山东省临床检验中心赵胜梅博士，审核依据为《医疗机构临床基因扩增实验室管理办法》、《医疗机构临床基因扩增实验室工作导则》。我站高度重视，站长陈晓建、副站长张春来、工会主席许崇梅、站长助理高更春及相关科...',`thumb`='/d/file/content/2017/10/59eab946d1e50.jpg',`updatetime`='1505498860',`inputtime`='1505498860',`posid`='1',`url`='/index.php?a=shows&catid=2&id=941',`status`='99',`islink`='0',`style`='' WHERE `id` = 941 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_name D:\www\201710xuezhan\zificms\Common\Model\RelationModel.class.php 第 258 行.
+SQL: UPDATE `zf_content_data` SET `content`='<p class=\"MsoNormal\" style=\"line-height: 27pt; text-indent: 32pt; margin: 0cm 0cm 0pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly\"><span lang=\"EN-US\" style=\"font-family: 仿宋_GB2312; font-size: 16pt\">2017</span><span style=\"font-family: 仿宋_GB2312; font-size: 16pt\">年<span lang=\"EN-US\">9</span>月<span lang=\"EN-US\">15</span>日，山东省临床基因扩增检验实验室技术审核专家组一行<span lang=\"EN-US\">4</span>人对我站检验科核酸检测实验室进行了技术审核。审核组成员为山东省临床检验中心卢志明主任、山东省血液中心朱海峰主任、临沂市人民医院诸葛宝忠主任、山东省临床检验中心赵胜梅博士，审核依据为《医疗机构临床基因扩增实验室管理办法》、《医疗机构临床基因扩增实验室工作导则》。<span lang=\"EN-US\"><o:p></o:p></span></span></p><p class=\"MsoNormal\" style=\"line-height: 27pt; text-indent: 32pt; margin: 0cm 0cm 0pt; mso-char-indent-count: 2.0; mso-line-height-rule: exactly\"><span style=\"font-family: 仿宋_GB2312; font-size: 16pt\">我站高度重视，站长陈晓建、副站长张春来、工会主席许崇梅、站长助理高更春及相关科室参加了审核首次及末次会议。首次会议上，站长陈晓建做了血站基本情况的汇报，副站长张春来做了核酸实验室情况汇报。随后，专家组<span lang=\"EN-US\">4</span>人深入到我站检验科核酸检测实验室进行了现场审核，内容包括人员资质及培训、实验室设置及仪器设备配备、实验室标准操作规程及程序文件、实验室防污染控制等，专家组严格检查了实验室设备的性能验证、室间质评、室内质量控制、核酸检测设备的使用维护、防污染措施的实施等，并对现场检测的标本结果进行审核。在末次会议上，审核组专家宣布了审核结论，一致认为我站检验科核酸检测实验室审核合格<a name=\"_GoBack\"></a>。卢志明主任代表审核组对我站的工作表示了肯定，也提出了具体要求。站长陈晓建做了表态，表示将以本次审核为契机，继续加强质量管理，使我站核酸检测实验室的检测技术水平迈上了一个新的台阶。<br/><br/><img width=\"700\" height=\"464\" alt=\"\" src=\"/d/UploadFiles/image/170916021230562501i7s5e9e89g7n.jpg\"/><br/><br/><img width=\"700\" height=\"464\" alt=\"\" src=\"/d/UploadFiles/image/170916021254781250omp6uun54bdi.jpg\"/><br/><br/><br/></span></p>',`relation`='',`paginationtype`='2',`maxcharperpage`='10000',`template`='',`allow_comment`='1',`id`='941' WHERE `id` = 941 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `zf_tags` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `zf_tags_content` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `zf_tags_content` WHERE `modelid` = 1 AND `contentid` = 941 AND `catid` = 2  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `zf_position` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `zf_position_data` [ RunTime:0.0029s ]
+SQL: SELECT `posid` FROM `zf_position_data` WHERE `id` = 941 AND `catid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zf_position_data` WHERE `id` = 941 AND `posid` = 1 AND `catid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: _pk D:\www\201710xuezhan\zificms\Common\Model\Model.class.php 第 61 行.
+NOTIC: [8] Undefined index: _pk D:\www\201710xuezhan\zificms\Common\Model\Model.class.php 第 61 行.
+SQL: INSERT INTO `zf_position_data` (`listorder`,`id`,`catid`,`posid`,`module`,`modelid`,`data`,`thumb`,`expiration`,`extention`,`synedit`) VALUES ('941','941','2','1','content','1','a:7:{s:5:\"title\";s:66:\"临沂市中心血站完成核酸检测实验室技术审核工作\";s:11:\"description\";s:599:\"2017年9月15日，山东省临床基因扩增检验实验室技术审核专家组一行4人对我站检验科核酸检测实验室进行了技术审核。审核组成员为山东省临床检验中心卢志明主任、山东省血液中心朱海峰主任、临沂市人民医院诸葛宝忠主任、山东省临床检验中心赵胜梅博士，审核依据为《医疗机构临床基因扩增实验室管理办法》、《医疗机构临床基因扩增实验室工作导则》。我站高度重视，站长陈晓建、副站长张春来、工会主席许崇梅、站长助理高更春及相关科...\";s:5:\"thumb\";s:41:\"/d/file/content/2017/10/59eab946d1e50.jpg\";s:9:\"inputtime\";s:10:\"1505498860\";s:5:\"posid\";a:2:{i:0;s:2:\"-1\";i:1;s:1:\"1\";}s:3:\"url\";s:33:\"/index.php?a=shows&catid=2&id=941\";s:5:\"style\";s:0:\"\";}','1','0','','0') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zf_content` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `zf_position_data` WHERE `id` = 941 AND `modelid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zf_content` SET `posid`='1' WHERE `id` = 941 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zf_position_data` WHERE `posid` = 1 ORDER BY listorder DESC, id DESC LIMIT 10,100   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: backstagefun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+NOTIC: [8] Undefined index: frontfun D:\www\201710xuezhan\#runtime\content_update.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `zf_attachment_index` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0031s ]
+SQL: UPDATE `zf_attachment` SET `status`='1' WHERE `aid` = 7 [ RunTime:0.0003s ]
+SQL: INSERT INTO `zf_attachment_index` (`keyid`,`aid`) VALUES ('c-2-941','7') [ RunTime:0.0003s ]
+INFO: [ content_edit_end ] --START--
+SQL: SHOW COLUMNS FROM `zf_cache` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zf_cache` WHERE `key` = 'Search_config' ORDER BY `id` DESC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_search` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `zf_module` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `zf_module` WHERE `module` = 'Search' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ContentData D:\www\201710xuezhan\zificms\Application\Content\Model\ContentModel.class.php 第 111 行.
+SQL: SELECT * FROM `zf_search` WHERE `id` = 941 AND `catid` = 2 AND `modelid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Uninitialized string offset: 1185 D:\www\201710xuezhan\zificms\Application\Search\Class\Segment.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 D:\www\201710xuezhan\zificms\Application\Search\Class\Segment.class.php 第 47 行.
+SQL: INSERT INTO `zf_search` (`id`,`catid`,`modelid`,`adddate`,`data`) VALUES ('941','2','1','1505498860','临沂市中心血站完成核酸检测实验室技术审核工作 审核 实验室 检验 临床 站长 中心 山东省 检测 主任 基因 技术 临沂 工作 进行 专家组 次会议 对我 主席 工会 污染 控制 助理 设备 汇报 表示 相关 现场 博士 完成 重视 成员 人民 血液 高度 管理办法 医院 依据 一行 认为 代表 合格 宣布 实施 措施 结果 结论 专家 一致 质量管理 水平 一个 维护 加强 继续 具体 提出 要求 本次 契机 肯定 人员 资质 培训 设置 仪器 深入 随后 参加 情况 配备 标准 验证 性能 室内 质量 检查 严格 操作 程序 文件 使用') [ RunTime:0.0006s ]
+INFO: Run Search\Behavior\SearchApi [ RunTime:0.080815s ]
+INFO: [ content_edit_end ] --END-- [ RunTime:0.080838s ]
+SQL: SELECT * FROM `zf_content` WHERE `catid` = 2 AND `status` = 99 AND `id` < 941 ORDER BY `id` DESC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zf_content_data` WHERE ( 1=1 AND id='940' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zf_content` WHERE `catid` = 2 AND `status` = 99 AND `id` > 941 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: catid D:\www\201710xuezhan\zificms\Application\Content\Controller\ContentController.class.php 第 349 行.
+SQL: DELETE FROM `zf_locking` WHERE `userid` = 1 AND `catid` = null AND `id` = 941 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0034s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：修改成功！<br/>模块：Content,控制器：Content,方法：edit<br/>请求方式：Ajax','http://xz.com/index.php?m=Content&a=edit&catid=2&id=941','1508555083','127.0.0.1') [ RunTime:0.0003s ]
+
+[ 2017-10-21T11:04:46+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T11:05:26+08:00 ] 127.0.0.1 /index.php?m=Position&a=item
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Common\Behavior\AppBeginBehavior [ RunTime:0.000614s ]
+INFO: Run Wap\Behavior\WapBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8] Undefined index: host D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 895 行.
+NOTIC: [8] Undefined index: g D:\www\201710xuezhan\zificms\Common\Common\corefun.php 第 1035 行.
+SQL: SHOW COLUMNS FROM `zf_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `zf_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_position_data` [ RunTime:0.0029s ]
+SQL: DELETE FROM `zf_position_data` WHERE `id` = 1 AND `modelid` = 9 AND `posid` = 1 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zf_position_data` WHERE `id` = 1 AND `modelid` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_content_pic` [ RunTime:0.0039s ]
+SQL: UPDATE `zf_content_pic` SET `posid`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zf_model` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zf_model` WHERE `modelid` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM zf_Content_pic_data [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `zf_attachment` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `zf_attachment_index` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zf_attachment_index` WHERE `keyid` = 'position-9-1'  [ RunTime:0.0002s ]
+SQL: DELETE FROM `zf_attachment_index` WHERE `keyid` = 'position-9-1' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zf_operationlog` [ RunTime:0.0029s ]
+SQL: INSERT INTO `zf_operationlog` (`uid`,`status`,`info`,`get`,`time`,`ip`) VALUES ('1','1','提示语：移除成功！<br/>模块：Content,控制器：Position,方法：item<br/>请求方式：Ajax','http://xz.com/index.php?m=Position&a=item&posid=1','1508555126','127.0.0.1') [ RunTime:0.0002s ]
+
+[ 2017-10-21T11:05:29+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T11:05:30+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T14:44:38+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T14:54:15+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T16:30:53+08:00 ] 127.0.0.1 /
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+
+[ 2017-10-21T16:30:56+08:00 ] 127.0.0.1 /index.php?a=lists&catid=17
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('17') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:30:57+08:00 ] 127.0.0.1 /index.php?a=lists&catid=17
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('17') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:07+08:00 ] 127.0.0.1 /index.php?a=lists&catid=11
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:09+08:00 ] 127.0.0.1 /index.php?a=lists&catid=17
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('17') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:09+08:00 ] 127.0.0.1 /index.php?a=lists&catid=7
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('7') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:10+08:00 ] 127.0.0.1 /index.php?a=lists&catid=5
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('5') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:11+08:00 ] 127.0.0.1 /index.php?a=lists&catid=4
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('4') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:11+08:00 ] 127.0.0.1 /index.php?a=lists&catid=2
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,20  
+
+[ 2017-10-21T16:31:12+08:00 ] 127.0.0.1 /index.php
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 3  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('2') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('11') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('12') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content` WHERE `catid` IN ('13') AND `status` = 99 ORDER BY inputtime DESC LIMIT 8  
+DEBUG: Content标签->lists：参数：catid= ,modelid= ,order=inputtime DESC
+SQL:SELECT * FROM `zf_content_pic` WHERE `catid` IN ('14') AND `thumb` <> '' AND `status` = 99 ORDER BY inputtime DESC LIMIT 0,10  
+

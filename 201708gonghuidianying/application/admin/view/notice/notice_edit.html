@@ -1,0 +1,174 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.layui-input-block > .layui-input{width: 300px;}
+
+.layui-form-select{width: 170px;}
+.layui-layedit{
+    width: 70%;
+    height: 400px;
+}
+.layui-form-checkbox[lay-skin=primary]{
+    height: 30px!important;
+    line-height: 30px!important;
+}
+</style>
+{/block}
+
+{block name="body"}
+
+<div class="main">
+
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend><a name="nob">{$headArr.title}</a></legend>
+    </fieldset>
+
+    <div class="add_div">
+
+        {if condition="$Think.session.user_id eq $data.user_id "}
+        <form class="layui-form" action="" id="menu_form">
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">标题：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="title"  lay-verify="required" placeholder="请输入通知标题" autocomplete="off" class="layui-input title" value="{$data.title}">
+                </div>
+            </div>
+            
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">接收组：</label>
+                <div class="layui-input-block" >
+                    <div class="role_box">
+                        {foreach $role_list as $v} 
+                        {PHP}if(in_array($v["role_id"],$read_role)){ {/PHP}
+                        <div class="role_list">
+                            <input type="checkbox" name="read_id[]" lay-skin="primary" title="{$v.role_name}" value="{$v.role_id}" checked="" >
+                        </div>
+                        {PHP}}else{ {/PHP}
+                        <div class="role_list">
+                            <input type="checkbox" name="read_id[]" lay-skin="primary" title="{$v.role_name}" value="{$v.role_id}"  >
+                        </div>
+                        {PHP} } {/PHP}
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">内容：</label>
+                <div class="layui-input-block" >
+                    <textarea name="content" placeholder="请输入内容" style="width: 65%;height: 200px;display: none;" class="layui-textarea content_text" id="content1">{$data.content}</textarea>
+                </div>
+            </div>
+
+            <div class="layui-form-item" style="margin-top:40px;">
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn button_sub" >立即提交</button>
+                </div>
+            </div>
+            <input type="hidden" value="{$data.id}" name="id" class="id" />
+        </form>
+        {else/}
+        <table class="layui-table list_table">
+            <colgroup>
+                <col width="200">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th>录入时间：</th>
+                    <td>{$data.add_time|date="Y-m-d",###}</td>
+                </tr>
+                <tr>
+                    <th>标题：</th>
+                    <td>{$data.title}</td>
+                </tr>
+                <tr>
+                    <th>状态：</th>
+                    <td>已读</td>
+                </tr>
+
+                <tr>
+                    <th>内容：</th>
+                    <td>{$data.content}</td>
+                </tr>
+
+                
+                <tr>
+                    <th>发布人：</th>
+                    <td>{$data.username}</td>
+                </tr>
+            </tbody>
+        </table>
+        {/if}
+        
+
+
+    </div>
+</div>
+{/block}
+
+{block name="js"}
+
+
+
+
+<script type="text/javascript" src="__JS__/DatePicker/WdatePicker.js"></script>
+
+
+<script charset="utf-8" src="__JS__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__JS__/kindeditor/lang/zh_CN.js"></script>
+        
+<script type="text/javascript">
+var editor;
+$(function() {
+    editor = KindEditor.create('textarea[name="content"]',{
+            allowFileManager : true,
+            pasteType : 1,
+            uploadJson : '__JS__/kindeditor/php/upload_json.php',
+            fileManagerJson : '__JS__/kindeditor/php/file_manager_json.php',
+            afterBlur: function () { this.sync(); }
+        });
+});
+
+
+
+var url = 0;
+$(".button_sub").click(function(){
+    
+    var id =　$(".id").val();
+    var title =　$(".title").val();
+
+    if(title==''){
+        layer.alert("请填写标题!");
+        return false;
+    }
+
+   var content =　editor.html();
+    if(content==''){
+        layer.alert("请填写简介!");
+        return false;
+    }
+
+     
+    $.post("{:url('notice/ajax_notice_edit')}",$('#menu_form').serialize(), function(data){
+        
+         if(data.status){
+           	layer.alert(data.msg,function(){
+                window.location.href = "{:url('notice/notice_list')}";    
+            }); 
+        }else{
+            layer.alert(data.msg);
+        }
+    });
+    
+});
+
+
+</script>
+{/block}

@@ -1,0 +1,113 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.layui-input-block > .layui-input{width: 300px;}
+
+.layui-form-select{width: 170px;}
+
+</style>
+{/block}
+
+{block name="body"}
+
+<div class="main">
+
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend><a name="nob">{$headArr.title}</a></legend>
+    </fieldset>
+
+    <div class="add_div">
+
+        <form class="layui-form" action="" id="menu_form">
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">参数名称：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="param"  lay-verify="required" placeholder="请输入参数名称" autocomplete="off" class="layui-input param">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">code</label>
+                <div class="layui-input-block">
+                    <input type="text" name="code" lay-verify="required" placeholder="请输入code" autocomplete="off" class="layui-input code">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">值：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="value" lay-verify="required" placeholder="请填写function名称" autocomplete="off" class="layui-input value">
+                </div>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">参数类型：</label>
+                <div class="layui-input-block">
+                    <select name="type" lay-verify="required">
+                        <option value="text">文本</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="layui-form-item" style="margin-top:40px;">
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn button_sub" >立即提交</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__JS__/DatePicker/WdatePicker.js"></script>
+<script type="text/javascript">
+var url = 0;
+$(".button_sub").click(function(){
+
+    var temp =　$(".param").val();
+    if(temp==''){
+        layer.alert("请填写菜单名称!");
+        return false;
+    }
+
+    var temp =　$(".code").val();
+    if(temp==''){
+        layer.alert("请填写code!");
+        return false;
+    }
+
+    var temp =　$(".code").val();
+    if(temp==''){
+        layer.alert("请填写code!");
+        return false;
+    }
+    
+    var temp =　$(".value").val();
+    if(temp==''){
+        layer.alert("请填写值!");
+        return false;
+    }
+     
+    $.post("{:url('param/ajax_param_add')}",$('#menu_form').serialize(), function(data){
+        
+         if(data.status){
+           	layer.alert(data.msg,function(){
+                window.location.href = "{:url('param/param_list')}";    
+            }); 
+        }else{
+            layer.alert(data.msg);
+        }
+    });
+    
+});
+
+
+</script>
+{/block}

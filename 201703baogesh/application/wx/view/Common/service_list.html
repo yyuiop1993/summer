@@ -1,0 +1,66 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/service_list.css"/>
+<style type="text/css">
+
+</style>
+{/block}
+
+{block name="body"}
+<div class="back">
+    <a href="{:url('service/index')}">&lt;返回</a>
+    服务信息列表
+</div>
+
+<div class="content">
+ 
+ 
+<table class="layui-table">
+	<colgroup>
+	    <col>
+	    <col>
+	    <col>
+	    <col>
+	</colgroup>
+	<thead>
+	    <tr>
+	      <th>编号</th>
+	      <th>标题</th>
+	      <th>添加时间</th>
+	      <th>状态</th>
+	      <th>操作</th>
+	    </tr> 
+	</thead>
+	<tbody>
+		{foreach $list_data as $v} 
+	    <tr>
+	      	<td>{$v.id}</td>
+	      	<td>{$v.title}</td>
+	      	<td>{$v.add_time|date="Y-m-d",###}</td>
+	      	<td>
+	      		{eq name="$v.status" value="1"}待审核{/eq}
+	      		{eq name="$v.status" value="2"}已通过{/eq}
+	      		{eq name="$v.status" value="3"}已驳回{/eq}
+	      	</td>
+
+	      	<td>
+	      		<a href="{:url('service/service_edit',array('id'=>$v['id']))}">修改</a>
+	      		{if condition="$v.status eq 2"}
+	      		<br>
+                <a href="{:url('service/service_show_view',array('id'=>$v['id']))}" >审批信息</a>
+                {/if}
+	      	</td>
+	    </tr>
+	   {/foreach}
+	</tbody>
+	</table>
+	{$list_data->render()}
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+
+</script>
+{/block}

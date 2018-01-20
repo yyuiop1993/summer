@@ -1,0 +1,46 @@
+<div class="middle_left">
+    <div class="layui-side layui-side-bg layui-larry-side" lay-filter="side" >
+
+        <!-- <ul class="layui-nav layui-nav-tree admin-nav-tree"> -->
+        <ul class="layui-nav layui-nav-tree" lay-filter="test">
+            <?php foreach ($list_menu as $k => $v) { ?>
+
+            <?php if($v['id']==1){ ?>
+                <li class="layui-nav-item layui-nav-title layui-nav-itemed">
+            <?php }else{ ?>
+                <li class="layui-nav-item layui-nav-title layui-nav-itemed">
+            <?php } ?>
+                
+                <a href="javascript:void(0);"><?php echo $v["menu_name"];?></a>
+                <dl class="layui-nav-child">
+                    <?php foreach ($v["menu"] as $k2 => $v2) { ?>
+                        <?php if($v2['a']==$action){ ?>
+                            <dd class="layui-nav-item layui-nav-item-child "  >
+                                <a target="right_frame" href_url="<?php echo url($v2['c'].'/'.$v2['a']);?>" data-url="<?php echo url($v2['c'].'/'.$v2['a']);?>" ><span><?php echo $v2["menu_name"];?></span></a>
+                            </dd>
+                        <?php }else{ ?>
+                            <dd class="layui-nav-item layui-nav-item-child " >
+                                <a target="right_frame" href_url="<?php echo url($v2['c'].'/'.$v2['a']);?>" data-url="<?php echo url($v2['c'].'/'.$v2['a']);?>" ><span><?php echo $v2["menu_name"];?></span></a>
+                            </dd>
+                        <?php } ?>
+                    <?php } ?>
+                </dl>
+            </li>
+                
+            <?php } ?>
+        </ul>
+
+    </div>
+</div>
+<style type="text/css">
+.layui-nav .layui-nav-title>a{
+    color: #ccc!important;
+}
+.layui-nav .layui-nav-title .layui-nav-child a{
+    color: #ccc!important;
+    background-color: #393D49!important;
+}
+</style>
+<script type="text/javascript">
+
+</script>

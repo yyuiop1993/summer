@@ -1,0 +1,130 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:53:"D:\www\baogesh/application/admin\view\index\main.html";i:1493029332;s:58:"D:\www\baogesh/application/admin\view\Common\baseHome.html";i:1495271894;}*/ ?>
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+<!-- 引入icon -->
+<link rel="icon" href="__IMG__/favicon.ico" />
+<!-- 引入base.css -->
+<link rel="stylesheet" href="__CSS__/base.css"/>
+<!-- 引入layui -->
+<script type="text/javascript" src="__JS__/layui/layui.js"></script>
+<link rel="stylesheet" href="__JS__/layui/css/layui.css"/>
+<link rel="stylesheet" href="__CSS__/layui_user.css"/>
+<!-- layer单独使用 -->
+<script type="text/javascript" src="__JS__/layer/layer.js"></script>
+<link rel="stylesheet" href="__JS__/layer/skin/default/layer.css"/>
+
+<!-- 引入基础js和jquery -->
+<script type="text/javascript" src="__JS__/jquery-2.1.4.min.js"></script>
+
+<title><?php echo $headArr['title']; ?></title>
+<meta name="keywords" content="<?php echo $headArr['keyword']; ?>"/>
+<meta name="description" content="<?php echo $headArr['description']; ?>"/>
+
+<link rel="stylesheet" href="__CSS__/baseHome.css"/>
+
+<style>
+td:first-child{
+	text-align: right;
+}
+</style>
+
+<!-- 每个页面独自的css -->
+</head>
+
+<body style="height:auto;">
+    
+    
+
+
+<div class="main">
+	<table class="layui-table" lay-skin="line">
+	<colgroup>
+		<col width="150">
+	<col>
+	</colgroup>
+		<thead>
+			<tr >
+				<th colspan="2">网站信息</th>
+			</tr> 
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td>当前时间：</td>
+				<td><a class="time"><?php echo date("Y-m-d H:i:s");?></a></td>
+			</tr>
+
+			<tr>
+				<td>当前域名：</td>
+				<td><?php echo $domain; ?></td>
+			</tr>
+			
+			
+			<tr>
+				<td>运行环境：</td>
+				<td><?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
+			</tr>
+
+
+			<tr>
+				<td>官方网站：</td>
+				<td><a href="http://www.zhifengchina.cn" target="_blank">www.zhifengchina.cn</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+
+    
+</body>
+</html>
+<!-- 引入基础js和jquery -->
+<script type="text/javascript" src="__JS__/baseHome.js"></script>
+<script type="text/javascript">
+/*赋予页面高度*/
+$(function(){
+    //$("body").css("height","auto");
+
+    //var height =  $(window).height()-$(".head_box").height()
+    //$(".content").height(height);
+    //$("#main_tab").height(height-2);
+    //$(".layui-nav.layui-nav-tree").height(height-2);
+
+   // var dh=$(window).height();//网页可视区高度
+    
+    //$(".middle_left").scroll(function() {
+        //var hidtop=$(document).scrollTop();//网页被卷去的高度
+        //console.log(hidtop);
+    //});
+});
+</script>
+
+<script type="text/javascript">
+
+var height =  $("body").height()
+$("body").height(height-10);
+
+$(function(){ 
+	setInterval("getTime();",1000); //每隔一秒执行一次 
+}) 
+//取得系统当前时间 
+function getTime(){ 
+	var myDate = new Date(); 
+	//var date = myDate.toLocaleDateString(); 
+	var year  = myDate.getFullYear();
+    var month = myDate.getMonth() + 1;
+    if(month<10){month = "0"+month}
+    var day   = myDate.getDate();
+
+	var hours   = myDate.getHours(); 
+	var minutes = myDate.getMinutes(); 
+	var seconds = myDate.getSeconds(); 
+	$(".time").html(year+"-"+month+"-"+day+" "+hours+":"+minutes+":"+seconds); //将值赋给div 
+} 
+</script>

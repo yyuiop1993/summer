@@ -1,0 +1,506 @@
+/*header start*/
+/*.header-bg {
+    width:100%;
+    background-color: #353535;
+    opacity: 0.8;
+    
+    z-index: 10;
+    height: 50px;
+}*/
+
+.header {
+	background-color: #353535;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+    z-index: 11;
+    height:50px;
+}
+.header .header-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 6%;
+	padding-left: 1%;
+	height: 40px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.header .header-left {
+	margin-top: 15px;
+}
+.header .header-right {
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.header .header-right img{
+	width: 40%;
+}
+
+/*header end*/
+
+
+
+
+
+/* flexslider */
+.flexslider{position:relative;overflow:hidden;background:url(../images/loading.gif) 50% no-repeat;}
+.slides{position:relative;z-index:1; overflow:hidden; }
+.slides li{ overflow:hidden;}
+.slides li img {width: 100%;}
+.flex-control-nav{position:absolute;bottom:10px;left: 0;z-index:1;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:8px;height:8px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:8px;height:8px;line-height:40px;overflow:hidden;cursor:pointer;border: 1px solid #d22720;border-radius: 5px;}
+.flex-control-nav .flex-active{background-color: #d22720;}
+
+
+
+
+
+/*公共部分 start*/
+.fixed {
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+
+
+.fixed_title {
+	height: 50px;
+	background-color: #fff;
+	margin-top :10px;
+	padding-top: 10px;
+}
+
+.fixed_title .title_t1{
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+.fixed_title .title_t2{
+	font-size: 10px;
+	color: #666666;
+	text-align: center;
+}
+
+.flexslider2{
+ 	width: 90%;
+ 	padding: 0 5%;
+ 	background-color: #F9F9F9;
+}
+
+
+.flexslider2 .flex-control-nav a{
+	border: 1px solid #7CADD3;
+	background-color: #7CADD3;
+	width: 4px;
+    height: 4px;
+    margin: 2px;
+}
+
+.flexslider2 .flex-control-nav .flex-active{
+	background-color: #F9F9F9;
+	border: 1px solid #7CADD3;
+	width: 8px;
+    height: 8px;
+    margin: 0px;
+}
+
+
+
+
+
+.fixed1{
+	background-color: #F9F9F9;
+	padding-top: 20px;
+}
+.fixed1 .tbox{
+	float: left;
+	width: 30%;
+	margin-left: 2.5%;
+	padding: 5px 0;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 10px;
+}
+.fixed1 .tbox img{
+	width: 80%;
+}
+.fixed1 .tbox .tbox_cn{
+	font-size: 14px;
+	color: #000;
+}
+.fixed1 .tbox .tbox_en{
+	font-size: 10px;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed .boxs {
+	padding: 4px 14px;
+}
+.fixed .boxs li {
+	height: 34px;
+	line-height: 34px;
+	padding-left: 10px;
+	overflow: hidden;
+	position: relative;
+	color: #666;
+	font-size: 13px;
+	background: url(../images/dot.png) no-repeat left center;
+}
+.fixed .boxs li a {
+	float: left;
+	color: #666;
+	width: 72%;
+	display: -webkit-box;
+	overflow: hidden; 
+	text-overflow:ellipsis;	
+	word-break:break-all;
+	-webkit-box-orient:vertical;
+	/*white-space:nowrap;*/
+	-webkit-line-clamp:1;
+}
+.fixed .boxs li span {
+	float: right;
+}
+.fixed .boxs .more {
+	padding: 6px 0 10px;
+}
+.fixed .boxs .more a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f5f5f5;
+	text-align: center;
+	color: #999;
+}
+
+/*公共部分 end*/
+/*fixed1 start*/
+.fixed1 {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.fixed2{
+	margin-top: 10px;
+}
+
+.fixed3 .world{
+	background-color: #F9F9F9;
+	padding: 10px 0;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*动画效果*/
+
+/*动画效果*/
+.point-area {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transition: opacity .5s ease-out
+}
+
+.point-area .point {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background: transparent
+}
+.point-area .point-shadow:after {
+    box-shadow: inset 0 0 5em rgba(0,205,236,.16)
+}
+.point-area .point-white {
+    background-color: #fff;
+    border: 1px solid #00c1de
+}
+.point-area .point-dot {
+    z-index: 1;
+    background-color: red;
+    border: 1px solid red
+}
+
+.point-area .point-10 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-10:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 225ms infinite;
+    animation: ripple 4.5s ease-out 225ms infinite
+}
+.point-area .point-20 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-20:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out .45s infinite;
+    animation: ripple 4.5s ease-out .45s infinite
+}
+.point-area .point-30 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-30:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 675ms infinite;
+    animation: ripple 4.5s ease-out 675ms infinite
+}
+.point-area .point-40 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-40:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out .9s infinite;
+    animation: ripple 4.5s ease-out .9s infinite
+}
+.point-area .point-50 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-50:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 1125ms infinite;
+    animation: ripple 4.5s ease-out 1125ms infinite
+}
+.point-area .point-60 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-60:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 1.35s infinite;
+    animation: ripple 4.5s ease-out 1.35s infinite
+}
+.point-area .point-70 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-70:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 1575ms infinite;
+    animation: ripple 4.5s ease-out 1575ms infinite
+}
+.point-area .point-80 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-80:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 1.8s infinite;
+    animation: ripple 4.5s ease-out 1.8s infinite
+}
+.point-area .point-90 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-90:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 2025ms infinite;
+    animation: ripple 4.5s ease-out 2025ms infinite
+}
+.point-area .point-100 {
+    width: 100%;
+    height: 100%
+}
+.point-area .point-100:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    opacity: 0;
+    -webkit-animation: ripple 4.5s ease-out 2.25s infinite;
+    animation: ripple 4.5s ease-out 2.25s infinite
+}
+
+
+@-webkit-keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1)
+    }
+    5% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes ripple {
+        0% {
+        opacity: 0;
+        -webkit-transform: scale(.1);
+        transform: scale(.1)
+    }
+    5% {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+/*fixed7 end*//*
+@media screen and (max-width:360px) {
+	.fixed .title {
+		font-size: 15px;
+	}
+	.fixed3 .boxs li,
+	.fixed5 .boxs li {
+		font-size: 13px;
+		height: 28px;
+		line-height: 28px;
+	}
+	.fixed3 .boxs li a,
+	.fixed5 .boxs li a {
+		width: 68%;
+	}
+	.fixed4 .box li a span {
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+	}
+	.fixed4 .box li a em {
+		font-size: 13px;
+	}
+	.fixed6 .boxs li {
+		height: 90px;
+	}
+}*/

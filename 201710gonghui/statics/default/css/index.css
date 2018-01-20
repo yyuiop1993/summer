@@ -1,0 +1,89 @@
+/*hearder start*/
+.hearder {
+	min-height: 250px;
+	background: url(../images/bg1.png) no-repeat center top;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+/*hearder end*/
+/*content start*/
+.content {
+	padding: 2em 0;
+}
+.content li {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.content li a {
+	display: block;
+	padding-top: 80px;
+	background: url(../images/li77.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;
+	background-size: 70% auto;*/
+	line-height: 30px;
+	font-size: 14px;
+	color: #6d6e71;
+	-webkit-animation: bouncein 1s ease-out backwards;
+    -moz-animation: bouncein 1s ease-out backwards;
+    -ms-animation: bouncein 1s ease-out backwards;
+    animation: bouncein 1s ease-out backwards;
+	
+}
+.content li.li2 a {
+	background: url(../images/li11.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;*/
+}
+.content li.li3 a {
+	background: url(../images/li22.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;*/
+}
+.content li.li4 a {
+	background: url(../images/li33.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;*/
+}
+.content li.li5 a {
+	background: url(../images/li55.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;*/
+}
+.content li.li6 a {
+	background: url(../images/li88.png) no-repeat center 10px;
+	/*-webkit-background-size: 70% auto;*/
+}
+
+.content li.li0 {
+	width: 72%;
+	padding: 0 14%;
+}
+
+.content li.li0 a {
+	display: inline-block;
+	width: 100%;
+	background: #f74c3d url(../images/yuyuebaoming.png) no-repeat center center;
+	-webkit-background-size: 80% auto;
+	background-size: 80% auto;
+	padding: 0;
+	text-indent: 80px;
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 46px;
+}
+/*content end*/
+
+@media screen and (max-width: 400px) {
+    .content {
+	    padding: 1em 0;
+	}
+}
+
+@media screen and (min-width: 401px) {
+    .content {
+	    padding: 2em 0;
+	}
+}

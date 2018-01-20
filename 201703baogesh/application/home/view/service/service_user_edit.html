@@ -1,0 +1,682 @@
+{extend  name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/service_add.css"/>
+<style type="text/css">
+
+</style>
+{/block}
+
+{block name="body"}
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+  <legend>审批信息</legend>
+</fieldset>
+
+{foreach name="view_data" item="v" key="key"}
+<table class="layui-table">
+    <colgroup>
+        <col width="150">
+        <col>
+    </colgroup>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <th>部门：</th>
+            <td>{$v.role_name}</td>
+        </tr>
+        <tr>
+            <th>是否通过</th>
+            <td>
+                {eq name="$v.view_status" value="2"}
+                通过
+                {else/}驳回
+                {/eq}
+            </td>
+            
+        </tr>
+        <tr>
+            <th>审批意见</th>
+            <td>
+                {$v.view_content}
+            </td>
+        </tr>
+    </tbody>
+</table>
+{/foreach}
+
+
+
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+  <legend>修改服务信息</legend>
+</fieldset>
+
+<form id="map" class="layui-form">
+    <div class="">
+
+        <div class="map_form">
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">录入时间：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" class="layui-input"   value='{$data.add_time|date="Y-m-d",###}' readonly autocomplete="off" />
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">反馈单号：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="order_num" class="order_num layui-input" readonly value="{$data.order_num}" autocomplete="off" />
+                </div>
+            </div>
+
+            
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">标题：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="title" class="title layui-input" required="" placeholder="请输入标题" autocomplete="off" value="{$data.title}" />
+                     
+                </div>
+            </div>
+
+            <!-- <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">故障代码：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="fault_code" class="fault_code layui-input" required="" placeholder="请输入故障代码" autocomplete="off"  value="{$data.fault_code}"/>
+                     
+                </div>
+            </div> -->
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">服务站名称：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" value="{$role_name}" class="layui-input" readonly autocomplete="off" /> 
+                </div>
+            </div>
+
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">机器工作地：</label>
+                <div class="input_block layui-input-block">
+                    {include file="/Common/cate"} 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">工作环境：</label>
+                <div class="input_block layui-input-block">
+                    <select name="work_envir" class="work_envir">
+                        {foreach name="work_envir" item="v" key="k"} 
+                            {eq name="$data['work_envir']" value="$k"}
+                            <option value ="{$k}" selected>{$v}</option>
+                            {else/}
+                            <option value ="{$k}">{$v}</option>
+                            {/eq}
+                        {/foreach} 
+                    </select>
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">用户名：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="user_name" class="user_name layui-input"  placeholder="请输入用户名" autocomplete="off" value="{$data.user_name}" /> 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">电话：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="user_mobile" class="user_mobile layui-input"  placeholder="请输入电话" autocomplete="off" value="{$data.user_mobile}" /> 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">用户地址：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="user_address" class="user_address layui-input"  placeholder="请输入用户地址" autocomplete="off" value="{$data.user_address}" /> 
+                </div>
+            </div>
+
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">司机姓名：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="driver_name" class="driver_name layui-input"  placeholder="请输入司机姓名" autocomplete="off" value="{$data.driver_name}" />
+                </div>
+            </div>
+            
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">司机电话：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="driver_mobile" class="driver_mobile layui-input"  placeholder="请输入司机电话" autocomplete="off" value="{$data.driver_mobile}" />
+                </div>
+            </div>
+
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">机器型号：</label>
+                <div class="layui-input-inline">
+                    <select name="machine_model" class="machine_model">
+                        {foreach name="machine_model" item="v" key="k"} 
+                            {eq name="$data['machine_model']" value="$k"}
+                            <option value ="{$k}" selected>{$v}</option>
+                            {else/}
+                            <option value ="{$k}">{$v}</option>
+                            {/eq}
+                        {/foreach}
+                    </select>
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">机器编号：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="machine_number" class="machine_number layui-input" placeholder="请输入机器编号" autocomplete="off" value="{$data.machine_number}" /> 
+                </div>
+            </div>
+
+
+            
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">购买日期：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="come_date" class="come_date layui-input" autocomplete="off" onClick="WdatePicker()" placeholder="点击选择交机日期" value="{$data.come_date}" /> 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">故障日期：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="fault_date" class="fault_date layui-input" autocomplete="off" onClick="WdatePicker()" placeholder="点击选择故障日期" value="{$data.fault_date}" /> 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">工作时长：</label>
+                <div class="input_block layui-input-block">
+                    <input type="text" name="work_hour" class="work_hour layui-input" placeholder="请输入工作时长" autocomplete="off"  value="{$data.work_hour}" /> 
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item">
+                <label class="form_label layui-form-label">故障位置：</label>
+                <div class="input_block layui-input-block">
+                    {include file="/Common/system"}
+                </div>
+            </div>
+
+            <div class="form_item layui-form-item" style="height: 90px;">
+                <label class="form_label layui-form-label">用户描述：</label>
+                <div class="input_block layui-input-block">
+                    <textarea name="user_fault_content" class="user_fault_content layui-textarea">{$data.user_fault_content}</textarea> 
+                </div>
+            </div>
+
+
+            <div class="form_item layui-form-item" style="height: 90px;">
+                <label class="form_label layui-form-label">原因分析：</label>
+                <div class="input_block layui-input-block">
+                    <textarea name="analysis_reason" class="analysis_reason layui-textarea">{$data.analysis_reason}</textarea> 
+                </div>
+            </div>
+
+
+            <div class="form_item layui-form-item" style="height: 90px;">
+                <label class="form_label layui-form-label">处理方式：</label>
+                <div class="input_block layui-input-block">
+                    <textarea name="handel_way" class="handel_way layui-textarea">{$data.handel_way}</textarea> 
+                </div>
+            </div>
+
+
+
+            <div class="form_item layui-form-item" style="height: auto;">
+                <label class="form_label layui-form-label">所需配件：</label>
+                <div class="input_block layui-input-block">
+                    <table class="layui-table parts_table" style="width:98%;">
+                        <colgroup>
+                            <col>
+                            <col>
+                            <col>
+                        </colgroup>
+                        <thead>
+                            
+                            <tr>
+                                <th>配件名称<span class="add_parts">添加+</span></th>
+                                <th>配件类型</th>
+                                <th>新件图号</th>
+                                <th>旧件图号</th>
+                                <th>新件追溯号</th>
+                                <th>旧件追溯号</th>
+                                <th>数量</th>
+                            </tr> 
+                            
+                        </thead>
+                        <tbody>
+                            {foreach name="part_data" item="v" key="k"} 
+                            <tr class="parts_list parts_list_{php}echo $k+1;{/php}">
+                                <td>
+                                <input type="hidden" name="part_id[]" value="{$v.id}"  />
+                                <input type="text" name="part_name[]" class="part_name  layui-input" placeholder="请输入配件名称" autocomplete="off" value="{$v.part_name}" /></td>
+                                <td><input type="text" name="part_type[]" class="part_type  layui-input" placeholder="请输入配件类型" autocomplete="off" value="{$v.part_type}" /></td>
+                                <td><input type="text" name="part_newtu[]" class="part_newtu layui-input" placeholder="请输入新件图号" autocomplete="off" value="{$v.part_newtu}"/></td>
+                                <td><input type="text" name="part_oldtu[]" class="part_oldtu  layui-input" placeholder="请输入旧件图号" autocomplete="off" value="{$v.part_oldtu}" /></td>
+                                <td><input type="text" name="part_newnum[]" class="part_newnum layui-input" placeholder="请输入新件追溯号" autocomplete="off" value="{$v.part_newnum}" /></td>
+                                <td><input type="text" name="part_oldnum[]" class="part_oldnum  layui-input" placeholder="请输入旧件追溯号" autocomplete="off" value="{$v.part_oldnum}" /></td>
+                                <td><input type="text" name="part_number[]" class="part_number layui-input" placeholder="请输入数量" autocomplete="off" value="{$v.part_number}" /></td>
+                            </tr>
+                            {/foreach}
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+
+
+            <div class="upload_form">
+                {if condition="count($img_data)"}
+                
+                {foreach name="img_data" item="v" key="key"} 
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">{$v.name}：</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <img src="/{$v.src}" style="display: inline;" />
+                            <input type="hidden" name="img_id[]" value="{$v.id}"  />
+                            <input type="hidden" name="img[]" class="img_hidden img_<?php echo $key+1;?>" value="{$v.type_id}#{$v.src}"  />
+                            <a class="img_button ">
+                                 <input type="file" onchange="upload_img(this,{$v.type_id})" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击修改</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/foreach}
+                {else /}
+
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">整机图片：</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_1 img_hidden"  />
+                            <a class="img_button ">
+                                 <input type="file" onchange="upload_img(this,1)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">铭牌照片：</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_2 img_hidden"  />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,2)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">工作小时照片：</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_3 img_hidden"  />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,3)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">新旧件照片：</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <img src="" />
+                            <input type="hidden" name="img[]" class="img_6 img_hidden" data="5" />
+                            <a class="img_button ">
+                                <input type="file" onchange="upload_img(this,5)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="fault_img_body">
+                    <div class="form_item layui-form-item" style="height: auto;">
+                        <label class="form_label layui-form-label">故障图片：</label>
+                        <div class="input_block layui-input-block">
+                             <div class="save_box" >
+                                <img src="" />
+                                <input type="hidden" name="img[]" class="img_4 img_hidden" data="4" />
+                                <a class="img_button ">
+                                    <input type="file" onchange="upload_img(this,4)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form_item layui-form-item" style="height: auto;">
+                    <label class="form_label layui-form-label">&nbsp;</label>
+                    <div class="input_block layui-input-block">
+                         <div class="save_box" >
+                            <button class="layui-btn layui-btn-small fault_img_but" type="button" >添加故障图片</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/if}
+
+            </div>
+
+            <a href="javascript:void(0)" class="save_form layui-btn" style="margin-bottom: 100px;" >点击保存</a>
+        </div>
+
+    </div>
+<input type="hidden" name="id" class="id"  value="{$data.id}" />
+</form>
+
+
+
+
+
+
+
+
+
+{/block}
+
+{block name="js"}
+<script type="text/javascript" src="__JS__/layer/layer.js"></script>
+<link rel="stylesheet" href="__JS__/layer/skin/default/layer.css"/>
+<script type="text/javascript">
+
+
+function upload_img(obj,type_id){
+    
+    var file = obj.files[0];  
+    if($(obj).val()){
+        var index = layer.load(2, {shade: [0.3,'#000']});
+    }else{
+        return false;
+    }
+    console.log($(obj).val());
+
+    /*判断类型是不是图片*/
+    if(!/image\/\w+/.test(file.type)){
+        layer.alert("请确保文件为图像类型!",{icon: 2});   
+        return false;   
+    }
+
+    var reader = new FileReader();   
+    reader.readAsDataURL(file);   
+    reader.onload = function(e){   
+        var img = this.result;
+
+        if(img){
+            //$(obj).parent().hide()
+            $.post("{:url('service/upload_img')}",{type_id:type_id,img:img},function(data){
+            layer.close(index);
+            if(data.status){ 
+                $(obj).parents(".save_box").find("img").attr("src",'/'+data.src).show()
+                $(obj).parents(".save_box").find("input.img_hidden").val(data.type_id+'#'+data.path);
+            }else{
+                layer.alert(data.msg,{icon: 2});
+            }
+        });
+        }else{
+            layer.alert("网络错误，请重新选择图片!",{icon: 2});   
+            return false;   
+        }
+    }
+    
+}   
+
+
+/*
+    //微信点击图片
+    $(".qx_img img").click(function(){
+        var img = $(this).attr("src");
+        var img2= img.replace("!300","");
+        wx.previewImage({
+            current: img,
+            urls: [img2]
+        });
+    });
+*/
+
+var _parts = <?php echo count($part_data)+1;?>;
+$(function(){
+
+    /*添加新配件*/
+    /*添加新配件*/
+    $(".add_parts").click(function(){
+        var html = '<tr class="parts_list parts_list_'+_parts+'">';
+        
+        html+= '<td><input type="text" name="part_name[]" class="part_name layui-input" placeholder="请输入配件名称" autocomplete="off"></td>';
+        html+= '<td><input type="text" name="part_type[]" class="part_type layui-input" placeholder="请输入配件类型" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_newtu[]" class="part_newtu layui-input" placeholder="请输入新件图号" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_oldtu[]" class="part_oldtu layui-input" placeholder="请输入旧件图号" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_newnum[]" class="part_newnum layui-input" placeholder="请输入新件追溯号" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_oldnum[]" class="part_oldnum layui-input" placeholder="请输入旧件追溯号" autocomplete="off" /></td>';
+        html+= '<td><input type="text" name="part_number[]" class="part_number layui-input" placeholder="请输入数量" autocomplete="off"></td></tr>';
+        
+        $(".parts_table tbody").append(html);
+        _parts++;
+    })
+
+    $(".fault_img_but").click(function(){
+        /*添加故障图片*/
+        html =  '<div class="form_item layui-form-item" style="height: auto;">';
+        html+=  '<label class="form_label layui-form-label">故障图片：</label>';
+        html+=  '<div class="input_block layui-input-block">';
+        html+=  '<div class="save_box" >';
+        html+=  '<img src="" />';
+        html+=  '<input type="hidden" name="img[]" class="img_hidden" data="4" />';
+        html+=  '<a class="img_button ">';
+        html+=  '<input type="file" onchange="upload_img(this,4)" accept="image/gif,image/jpeg,image/jpg,image/png"><span>点击上传</span>';
+        html+=  '</a></div></div></div>';
+
+        $(".fault_img_body").append(html);
+        
+    })
+    
+
+    $(".save_form").click(function(){
+        
+
+        var temp = $(".title").val();
+        if(temp==''){
+            layer.alert("请填写标题!",{icon: 2},function(){
+                $(".title").focus();
+            });
+            return false;
+        }
+
+        /*var temp = $(".fault_code").val();
+        if(temp==''){
+            layer.alert("请填写故障代码!",{icon: 2},function(){
+                $(".fault_code").focus();
+            });
+            return false;
+        }*/
+
+        var temp = $("#get_province").val();
+        if(temp==''){
+            layer.alert("请选择机器工作地!",{icon: 2},function(){
+                $(".get_province").focus();
+            });
+            return false;
+        }
+
+        var temp = $("#get_city").val();
+        if(temp==''){
+            layer.alert("请选择机器工作地!",{icon: 2},function(){
+                $(".get_city").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_name").val();
+        if(temp==''){
+            layer.alert("请填写用户名!",{icon: 2},function(){
+                $(".user_name").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_mobile").val();
+        if(temp==''){
+            layer.alert("请填写用户电话!",{icon: 2},function(){
+                $(".user_mobile").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".user_address").val();
+        if(temp==''){
+            layer.alert("请填写用户地址!",{icon: 2},function(){
+                $(".user_address").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".machine_model").val();
+        if(temp==''){
+            layer.alert("请填写机器型号!",{icon: 2},function(){
+                $(".machine_model").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".machine_number").val();
+        if(temp==''){
+            layer.alert("请填写机器编号!",{icon: 2},function(){
+                $(".machine_number").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".come_date").val();
+        if(temp==''){
+            layer.alert("请选择交机日期!",{icon: 2},function(){
+                $(".come_date").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".fault_date").val();
+        if(temp==''){
+            layer.alert("请选择故障日期!",{icon: 2},function(){
+                $(".fault_date").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".system_main").val();
+        if(temp==''){
+            layer.alert("请选择故障位置!",{icon: 2});
+            return false;
+        }
+
+        
+        var temp = $(".system_part").val();
+        if(temp==''){
+            layer.alert("请选择故障位置!",{icon: 2});
+            return false;
+        }
+
+
+        var temp = $(".user_fault_content").val();
+        if(temp==''){
+            layer.alert("请填写用户描述!",{icon: 2},function(){
+                $(".user_fault_content").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".analysis_reason").val();
+        if(temp==''){
+            layer.alert("请填写原因分析!",{icon: 2},function(){
+                $(".analysis_reason").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".handel_way").val();
+        if(temp==''){
+            layer.alert("请填写处理方式!",{icon: 2},function(){
+                $(".handel_way").focus();
+            });
+            return false;
+        }
+
+        var temp = $(".img_1").val();
+        if(temp==''){
+            layer.alert("请上传整机图片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_2").val();
+        if(temp==''){
+            layer.alert("请上传铭牌照片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_3").val();
+        if(temp==''){
+            layer.alert("请上传工作小时照片!",{icon: 2});
+            return false;
+        }
+
+        var temp = $(".img_4").val();
+        if(temp==''){
+            layer.alert("请上传故障图片!",{icon: 2});
+            return false;
+        }
+
+
+        var temp = $(".img_6").val();
+        if(temp==''){
+            layer.alert("请上传新旧件照片!",{icon: 2});
+            return false;
+        }
+
+
+       
+        var loading = layer.load(2, {shade: [0.5,'#fff']});
+        $.post("{:url('service/ajax_service_user_edit')}",$("#map").serialize(),function(data){
+            layer.close(loading);
+            console.log(data.status);
+            if(data.status){ 
+                index = layer.alert('保存成功',{icon: 1},function(){
+                    window.location.href = "{:url('service/service_user_list')}";
+                });
+            }else{
+                layer.alert(data.msg,{icon: 2});
+                //window.reload();
+            }
+        });
+    });
+
+
+    
+});
+
+</script>
+{/block}

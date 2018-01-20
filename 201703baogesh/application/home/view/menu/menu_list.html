@@ -1,0 +1,127 @@
+{extend name="/Common/baseHome" /}
+
+{block name="css"}
+<link rel="stylesheet" href="__CSS__/curd.css"/>
+<style type="text/css">
+.menu_del{color: #192E32; text-decoration: underline;}
+.menu_del:hover{color: #F50;}
+</style>
+{/block}
+
+{block name="body"}
+<div class="main">
+    <div class="form_div">
+        <form action="#" method="get" id="menu_list_search" class="layui-form layui-form-pane">
+           　
+            <input type="hidden" name="m" value="menu">
+            <input type="hidden" name="a" value="menu_list">
+            
+            <div class="search_icon">
+                <i class="layui-icon">&#xe615;</i>
+            </div>
+            
+            <div class="layui-form-item">
+                <label class="layui-form-label">菜单名称：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="keyword" lay-verify="title" autocomplete="off"  placeholder="请输入菜单名称." class="layui-input">
+                </div>
+            </div>
+
+            <button class="layui-btn layui-btn-danger" lay-submit lay-filter="menu_list_search" >搜索</button>
+            
+            <a href="{:url('menu/menu_add')}" class="add_button" >添加新菜单</a>
+
+        </form>
+    </div>
+    <form action="/index.php/home/menu/menu_sort" method="post" >
+    <div class="list_div" id="listDiv">
+        <table class="layui-table">
+            <colgroup>
+                <col width="60">
+                <col width="60">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>排序</th>
+                    <th>菜单名称</th>
+                    <th>是否显示</th>
+                    <th>父级菜单</th>
+                    <th>操作</th>
+                </tr> 
+            </thead>
+            <tbody>
+
+                {foreach $list_data as $v} 
+                    <tr>
+                        <td>{$v.id}<input type="hidden" name="id[]" value="{$v.id}"   /></td>
+                        <td style="width: 60px;"><input type="text" name="sort[]" value="{$v.sort}" autocomplete="off" class=" sort" style="width: 40px;"  /></td>
+                        <td>{$v.menu_name}</td>
+                        <td>{eq name="v.shows" value="1"} 显示 {else/} 不显示 {/eq}</td>
+                        <td>一级菜单</td>
+                        <td>
+                            <a href="{:url('menu/menu_edit')}?id={$v.id}&fid={$v.fid}">修改</a>
+                            <a data="{$v.id}"  class="menu_del"  >删除</a>
+                        </td>
+                    </tr>
+                    {if condition="count($v.list)"}
+                    {foreach $v.list as $v2} 
+                        <tr>
+                            <td>{$v2.id}<input type="hidden" name="id[]" value="{$v2.id}"   /></td>
+                            <td style="width: 60px;"><input type="text" name="sort[]" value="{$v2.sort}" autocomplete="off" class="sort" style="width: 40px;"  /></td>
+                            <td>----{$v2.menu_name}</td>
+                            <td>{eq name="v2.shows" value="1"} 显示 {else/} 不显示 {/eq}</td>
+                            <td>{$v.menu_name}</td>
+                            <td>
+                                <a href="{:url('menu/menu_edit')}?id={$v2.id}&fid={$v2.fid}">修改</a>
+                                <a data="{$v2.id}"  class="menu_del"  >删除</a>
+                            </td>
+                        </tr>
+                    {/foreach}
+                    {/if}
+                {/foreach}
+                
+            </tbody>
+        </table>
+        <div style="margin-left: 20px;margin-bottom: 50px;">
+            <button class="layui-btn layui-btn-small">保存排序</button>
+        </div>
+        
+    </div>
+
+
+</div>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+$(".menu_del").click(function(){
+    var _this = $(this);
+    var id = _this.attr("data");
+    layer.confirm('您确定要删除吗？', {
+        btn: ['确定','取消'] //按钮
+    }, function(index){
+        layer.close(index);    
+        var id = _this.attr("data");
+        var index_load = layer.load(2, {shade: 0.5});
+        $.post("{:url('menu/menu_del')}",{id:id},function(data){
+            layer.close(index_load); 
+            if(data.status){
+                layer.msg(data.msg,{icon: 1});  
+                _this.parents("tr").remove();
+            }else{
+                layer.msg(data.msg,{icon: 2});   
+            }
+        });
+    }, function(index){
+        layer.close(index);    
+    });
+});
+    
+</script>
+{/block}

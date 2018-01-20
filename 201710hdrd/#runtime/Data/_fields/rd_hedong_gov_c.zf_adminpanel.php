@@ -1,0 +1,1 @@
+a:6:{i:0;s:3:"mid";i:1;s:6:"userid";i:2;s:4:"name";i:3;s:3:"url";s:3:"_pk";a:2:{i:0;s:3:"mid";i:1;s:6:"userid";}s:5:"_type";a:4:{s:3:"mid";s:21:"mediumint(8) unsigned";s:6:"userid";s:21:"mediumint(8) unsigned";s:4:"name";s:8:"char(32)";s:3:"url";s:9:"char(255)";}}
